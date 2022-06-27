@@ -1,0 +1,6 @@
+site: dxticket
+group: dxticket
+project: dxticket
+module:
+  name: dxticket-repository-data-site-development
+  after: dxticket-repository-data-site

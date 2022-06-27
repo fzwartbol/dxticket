@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dxticket/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /dxticket-catalog:
+        jcr:primaryType: hst:containeritempackage

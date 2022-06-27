@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    dxticket:
+      uri: http://www.dxticket.com/dxticket/nt/1.0
+      cnd: namespaces/dxticket.cnd

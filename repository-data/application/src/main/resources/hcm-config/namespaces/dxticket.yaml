@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/dxticket:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 095ddccd-3db4-4f66-bed7-bc6dc975e402

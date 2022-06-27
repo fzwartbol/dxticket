@@ -1,0 +1,87 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:update/hippo:registry/Add News Items:
+      jcr:primaryType: hipposys:updaterinfo
+      hipposys:batchsize: 10
+      hipposys:description: "This script will add news items to the news folder. Use\
+        \ as repository path for the script: /content/documents/dxticket/news/<year>/<month>/\
+        \  \r\n      Replace year and month with the actual values."
+      hipposys:dryrun: false
+      hipposys:loglevel: DEBUG
+      hipposys:parameters: "{ \"howMany\" :  24 , \r\n      \"nodeType\" : \"dxticket:newsdocument\"\
+        ,\r\n      \"titleField\" : \"dxticket:title\", \r\n      \"introductionField\"\
+        \ : \"dxticket:introduction\",\r\n      \"contentNode\" : \"dxticket:content\"\
+        ,\r\n      \"dateField\": \"dxticket:date\",\r\n      \"authorField\": \"\
+        dxticket:author\"}"
+      hipposys:path: /content/documents/dxticket/news/<year>/<month>
+      hipposys:script: "package org.hippoecm.frontend.plugins.cms.admin.updater\r\n\
+        \      \r\n      import org.onehippo.repository.update.BaseNodeUpdateVisitor\r\
+        \n      \r\n      import javax.jcr.Node\r\n      import javax.jcr.RepositoryException\r\
+        \n      import javax.jcr.Session\r\n      import org.hippoecm.repository.HippoStdNodeType\r\
+        \n      import org.hippoecm.repository.api.HippoNodeType\r\n      import org.onehippo.repository.update.BaseNodeUpdateVisitor\r\
+        \n      \r\n      /**\r\n      * Use as repository path for the script: /content/documents/dxticket/news/<year>/<month>\r\
+        \n      * Replace year and month with the actual values.\r\n      *\r\n  \
+        \    * Copyright 2020 Bloomreach B.V. (http://www.bloomreach.com)\r\n    \
+        \  * Usage is prohibited except for people attending a training given or authorised\
+        \ by Bloomreach B.V., and only for that purpose.\r\n      */\r\n      class\
+        \ UpdaterTemplate extends BaseNodeUpdateVisitor {\r\n      \r\n      String[]\
+        \ mixins = [\"mix:referenceable\", \"hippo:container\", \"hippo:derived\"\
+        , \"hippostd:container\", \"hippostd:publishable\", \"hippostd:publishableSummary\"\
+        , \"hippostd:relaxed\", \"hippostdpubwf:document\", \"hippotranslation:translated\"\
+        ]\r\n      def userName\r\n      def rand\r\n      def lorem = \"Lorem ipsum\
+        \ dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt\
+        \ ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\
+        \ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\"\r\
+        \n      def lorem2 = \"<p>Lorem ipsum dolor sit amet, consectetur adipisicing\
+        \ elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\
+        \ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\
+        \ ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;p&gt;Duis aute irure dolor\
+        \ in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\
+        \ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia\
+        \ deserunt mollit anim id est laborum.</p>\"\r\n      \r\n      boolean logSkippedNodePaths()\
+        \ {\r\n      return false // don't log skipped node paths\r\n      }\r\n \
+        \     \r\n      boolean skipCheckoutNodes() {\r\n      return false // return\
+        \ true for readonly visitors and/or updates unrelated to versioned content\r\
+        \n      }\r\n      \r\n      Node firstNode(final Session session) throws\
+        \ RepositoryException {\r\n      return null // implement when using custom\
+        \ node selection/navigation\r\n      }\r\n      \r\n      Node nextNode()\
+        \ throws RepositoryException {\r\n      return null // implement when using\
+        \ custom node selection/navigation\r\n      }\r\n      \r\n      \r\n    \
+        \  boolean doUpdate(Node node) {\r\n      \r\n      if (node.isNodeType(\"\
+        hippostd:folder\")) {\r\n      log.debug \"Adding news to folder ${node.path}\"\
+        \r\n      \r\n      1.upto(parametersMap[\"howMany\"], {\r\n      def newNodeName\
+        \ = \"news\" + it\r\n      if (node.hasNode(newNodeName)) {\r\n      log.debug\
+        \ \"Node at ${node.path}/${newNodeName} already exists. Skipping this node.\"\
+        \r\n      return\r\n      }\r\n      \r\n      // create handle node\r\n \
+        \     def newHandleNode = node.addNode(newNodeName, HippoNodeType.NT_HANDLE)\r\
+        \n      newHandleNode.addMixin(\"mix:referenceable\")\r\n      \r\n      //\
+        \ create product node\r\n      def newNewsNode = newHandleNode.addNode(newNodeName,\
+        \ parametersMap[\"nodeType\"])\r\n      log.debug \"Creating News at ${newNewsNode.getPath()}\"\
+        \r\n      for (mixin in mixins) {\r\n      newNewsNode.addMixin(mixin)\r\n\
+        \      }\r\n      \r\n      // cms data properties\r\n      \r\n      newNewsNode.setProperty(parametersMap[\"\
+        introductionField\"], lorem)\r\n      newNewsNode.setProperty(parametersMap[\"\
+        dateField\"], Calendar.getInstance())\r\n      \r\n      if(it % 3 == 0) {\
+        \    \r\n      newNewsNode.setProperty(parametersMap[\"authorField\"],\"Fake\
+        \ News Author\")\r\n      newNewsNode.setProperty(parametersMap[\"titleField\"\
+        ], \"Fake News ${it}\")\r\n      } else {\r\n      newNewsNode.setProperty(parametersMap[\"\
+        authorField\"],\"Bloomreach Author\")\r\n      newNewsNode.setProperty(parametersMap[\"\
+        titleField\"], \"News ${it}\")                  \r\n      }\r\n      def htmlNode\
+        \ = newNewsNode.addNode(parametersMap[\"contentNode\"], \"hippostd:html\"\
+        )\r\n      htmlNode.setProperty(\"hippostd:content\", lorem2)\r\n      \r\n\
+        \      // workflow properties\r\n      String[] availability = [\"live\",\
+        \ \"preview\"]\r\n      newNewsNode.setProperty(\"hippo:availability\", availability)\r\
+        \n      newNewsNode.setProperty(\"hippostd:stateSummary\", \"live\")\r\n \
+        \     newNewsNode.setProperty(HippoStdNodeType.HIPPOSTD_STATE, HippoStdNodeType.PUBLISHED)\r\
+        \n      newNewsNode.setProperty(\"hippostdpubwf:lastModifiedBy\", userName)\r\
+        \n      newNewsNode.setProperty(\"hippostdpubwf:createdBy\", userName)\r\n\
+        \      newNewsNode.setProperty(\"hippostdpubwf:lastModificationDate\", Calendar.getInstance())\r\
+        \n      newNewsNode.setProperty(\"hippostdpubwf:creationDate\", Calendar.getInstance())\r\
+        \n      newNewsNode.setProperty(\"hippostdpubwf:publicationDate\", Calendar.getInstance())\r\
+        \n      newNewsNode.setProperty(\"hippotranslation:locale\", \"en\")\r\n \
+        \     newNewsNode.setProperty(\"hippotranslation:id\", UUID.randomUUID().toString())\r\
+        \n      \r\n      })\r\n      return true\r\n      }\r\n      \r\n      return\
+        \ false\r\n      }\r\n      \r\n      void initialize(Session session) {\r\
+        \n      userName = session.getUserID()\r\n      }\r\n      \r\n      \r\n\
+        \      boolean undoUpdate(Node node) {\r\n      throw new UnsupportedOperationException('Updater\
+        \ does not implement undoUpdate method')\r\n      }\r\n      \r\n      }"
+      hipposys:throttle: 1000

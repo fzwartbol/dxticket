@@ -1,0 +1,108 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        dxticket:content: Content
+        dxticket:image: Image
+        dxticket:link: Link
+        dxticket:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        dxticket:content: Inhoud
+        dxticket:image: Afbeelding
+        dxticket:link: Link
+        dxticket:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        dxticket:content: Contenu
+        dxticket:image: Image
+        dxticket:link: Lien
+        dxticket:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        dxticket:content: Inhalt
+        dxticket:image: Abbildung
+        dxticket:link: Link
+        dxticket:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        dxticket:author: Author
+        dxticket:content: Content
+        dxticket:date: Date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Location
+        dxticket:source: Source
+        dxticket:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        dxticket:author: Auteur
+        dxticket:content: Inhoud
+        dxticket:date: Datum
+        dxticket:image: Afbeelding
+        dxticket:introduction: Introductie
+        dxticket:location: Locatie
+        dxticket:source: Bron
+        dxticket:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        dxticket:author: Verfasser
+        dxticket:content: Inhalt
+        dxticket:date: Datum
+        dxticket:image: Abbildung
+        dxticket:introduction: Einführung
+        dxticket:location: Standort
+        dxticket:source: Quelle
+        dxticket:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        dxticket:author: Auteur
+        dxticket:content: Contenu
+        dxticket:date: Date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Lieu
+        dxticket:source: Source
+        dxticket:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        dxticket:content: Content
+        dxticket:introduction: Introduction
+        dxticket:publicationdate: Publication date
+        dxticket:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        dxticket:content: Inhoud
+        dxticket:introduction: Introductie
+        dxticket:publicationdate: Publicatiedatum
+        dxticket:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        dxticket:content: Contenu
+        dxticket:introduction: Introduction
+        dxticket:publicationdate: Date de publication
+        dxticket:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        dxticket:content: Inhalt
+        dxticket:introduction: Einführung
+        dxticket:publicationdate: Publikationsdatum
+        dxticket:title: Titel

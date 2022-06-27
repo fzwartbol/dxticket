@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="pageModelJacksonObjectMapperExtraMixins"
+          class="org.springframework.beans.factory.config.MapFactoryBean">
+        <property name="sourceMap">
+            <map>
+                <entry key="org.hippoecm.hst.pagemodelapi.v09.core.model.ComponentWindowModel" value="org.example.mixin.ComponentWindowModelMixin"/>
+                <!-- SNIP -->
+            </map>
+        </property>
+    </bean>
+</beans>
