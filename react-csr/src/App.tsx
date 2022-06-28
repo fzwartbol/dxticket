@@ -52,7 +52,11 @@ export default function App(props: RouteComponentProps) {
           </div>
         </nav>
       </header>
-      <section className="container flex-fill pt-3">
+      <section className="titlebar">
+        <BrComponent path="titlebar" />
+      </section>
+
+      <section className="container flex-fill py-3 ">
         <BrComponent path="main" />
       </section>
       <footer className="bg-dark text-light py-3">

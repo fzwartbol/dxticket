@@ -1,0 +1,144 @@
+/content/documents/dxticket/events:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 834c3e78-abef-44b3-a8f9-a45586a7df8b
+  hippostd:foldertype: [new-events-document, new-events-folder]
+  hippotranslation:id: d57efca4-698f-4696-b82e-dc6596c5b234
+  hippotranslation:locale: en
+  /2022:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+    jcr:uuid: 2c848994-51e3-4553-b1a5-7d8cbf20ba44
+    hippostd:foldertype: [new-events-document, new-events-folder]
+    hippotranslation:id: 3554441c-3e93-48d8-801c-5916f866dd4d
+    hippotranslation:locale: en
+    /06:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 0d52deac-a6b2-41ef-b3b7-347a830c5ed1
+      hippostd:foldertype: [new-events-document, new-events-folder]
+      hippotranslation:id: e2e57121-5353-41bc-b0e8-35fe1eb3551c
+      hippotranslation:locale: en
+      /breakfast:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
+        hippo:name: Breakfast
+        /breakfast:
+          jcr:primaryType: dxticket:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 60e88452-ada4-4aee-b5e6-e6300a942c4f
+          dxticket:date: 2013-11-12T08:00:00+01:00
+          dxticket:documenttype: event
+          dxticket:enddate: 2023-06-27T16:38:00+02:00
+          dxticket:introduction: Start the day with a nice breakfast.
+          dxticket:location: Room 101
+          dxticket:title: Breakfast
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:11:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
+          hippotranslation:locale: en
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Breakfast is served starting from 8:00 until 9:30.</p>
+
+                        </body>
+                        </html>
+          /dxticket:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /introduction-speech:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
+        hippo:name: Introduction speech
+        /introduction-speech:
+          jcr:primaryType: dxticket:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 8ad864e8-b823-43e0-9732-534f25421113
+          dxticket:date: 2013-11-12T10:00:00+01:00
+          dxticket:documenttype: event
+          dxticket:enddate: 2023-06-27T16:38:00+02:00
+          dxticket:introduction: After breakfast there will be an introductory speech.
+          dxticket:location: Room 400
+          dxticket:title: Introduction speech
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
+          hippotranslation:locale: en
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+
+                        <p>Speech will be about the workshop.</p>
+
+                        </body>
+                        </html>
+          /dxticket:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /workshop:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
+        /workshop:
+          jcr:primaryType: dxticket:eventsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6a39dd92-5e9f-4943-a250-dd857de2fe1a
+          dxticket:date: 2013-11-12T13:00:00+01:00
+          dxticket:documenttype: event
+          dxticket:enddate: 2023-06-27T16:38:00+02:00
+          dxticket:introduction: Workshop starts at 1:00
+          dxticket:location: Room 600
+          dxticket:title: Workshop
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T11:18:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:16:00+01:00
+          hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
+          hippotranslation:locale: en
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <html>
+                        <body>
+                        <strong>Everybody </strong>
+                        <p>can join the workshop and start practicing what they learned during the last
+                        week.</p>
+
+                        </body>
+                        </html>
+          /dxticket:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []

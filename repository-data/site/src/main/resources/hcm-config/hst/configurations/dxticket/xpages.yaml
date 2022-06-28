@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/dxticket/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /detailpagina:
+        jcr:primaryType: hst:xpage
+        hst:label: Detailpagina
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 0b4a2812-20c1-474d-8a39-aaccbdb31a2b
+          hst:xtype: hst.vbox
+      /homepage:
+        jcr:primaryType: hst:xpage
+        hst:label: Home Page
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 57677db2-731a-49e8-907c-1d80e3600069
+          hst:xtype: hst.vbox

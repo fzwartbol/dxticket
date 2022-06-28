@@ -26,3 +26,9 @@ definitions:
         hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
         hst:label: Simple Content
         hst:template: contentpage-main
+      /eventslist:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsEventsComponent
+        hst:iconpath: images/essentials/catalog-component-icons/events-list.svg
+        hst:label: Event List
+        hst:template: eventslist-main-eventslist

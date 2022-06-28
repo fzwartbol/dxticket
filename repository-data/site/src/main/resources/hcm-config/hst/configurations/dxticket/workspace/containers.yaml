@@ -24,6 +24,12 @@ definitions:
           hippo:identifier: 9e824a22-75d6-4c16-bdd4-9ded0586faed
           hst:label: Home Page Main
           hst:xtype: hst.vbox
+        /titlebar:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 54d9fda8-b513-4e36-b007-939ef392ef4d
+          hst:xtype: hst.vbox
+          hst:label: Titlebar
       /pagenotfound:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -63,4 +69,21 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hippo:identifier: d58f30df-99e5-4c87-94c1-a336042dfe05
           hst:label: Content Page Main
+          hst:xtype: hst.vbox
+      /eventslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 3110b7b6-ddec-46bf-ae0f-54e6842b9fae
+          hst:label: Event List Main
+          hst:xtype: hst.vbox
+          hst:lastmodified: 2022-06-27T16:48:09.368+02:00
+      /eventspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 18a38c33-fb0c-40c2-bbdb-24ecb50b4437
+          hst:label: Event Page Main
           hst:xtype: hst.vbox

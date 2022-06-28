@@ -1,0 +1,8 @@
+/content/documents/dxticket/homepage:
+  .meta:order-before: details
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b2bf4ba9-5e5c-44bd-8f11-3c9c1bf8879f
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: c41994e0-707a-4de8-b144-58f600beb745
+  hippotranslation:locale: en

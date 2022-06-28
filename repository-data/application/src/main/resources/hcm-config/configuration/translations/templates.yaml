@@ -9,6 +9,8 @@ definitions:
       new-news-folder: Neuer News-Ordner
       new-content-folder: Neuer Content-Ordner
       new-content-document: Neues Content-Document
+      new-events-folder: Neuer Events-Ordner
+      new-events-document: Neues Event
     /hippo:configuration/hippo:translations/hippo:templates/en:
       new-resource-bundle: new resource bundle
       new-untranslated-folder: new untranslated folder
@@ -18,6 +20,8 @@ definitions:
       new-news-folder: new news item folder
       new-content-folder: new content folder
       new-content-document: new content document
+      new-events-folder: new events folder
+      new-events-document: new event
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit
@@ -27,6 +31,8 @@ definitions:
       new-news-folder: nouveau dossier messages d'info
       new-content-folder: nouveau dossier contenu
       new-content-document: nouveau document contenu
+      new-events-folder: nouveau dossier événements
+      new-events-document: nouvel événement
     /hippo:configuration/hippo:translations/hippo:templates/nl:
       new-resource-bundle: nieuwe resource bundle
       new-untranslated-folder: nieuwe onvertaalde map
@@ -36,3 +42,5 @@ definitions:
       new-news-folder: nieuwe nieuwsmap
       new-content-folder: nieuwe contentmap
       new-content-document: nieuw content document
+      new-events-folder: nieuwe evenementenmap
+      new-events-document: nieuw evenement

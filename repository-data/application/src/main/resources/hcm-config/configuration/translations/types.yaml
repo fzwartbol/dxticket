@@ -106,3 +106,45 @@ definitions:
         dxticket:introduction: Einführung
         dxticket:publicationdate: Publikationsdatum
         dxticket:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/dxticket:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Content
+        dxticket:date: Start date
+        dxticket:enddate: End date
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Location
+        dxticket:title: Title
+        jcr:name: Event
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhoud
+        dxticket:date: Startdatum
+        dxticket:enddate: Einddatum
+        dxticket:image: Afbeelding
+        dxticket:introduction: Introductie
+        dxticket:location: Locatie
+        dxticket:title: Titel
+        jcr:name: Evenement
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Contenu
+        dxticket:date: Date de début
+        dxticket:enddate: Date de fin
+        dxticket:image: Image
+        dxticket:introduction: Introduction
+        dxticket:location: Lieu
+        dxticket:title: Titre
+        jcr:name: Événement
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        dxticket:content: Inhalt
+        dxticket:date: Startdatum
+        dxticket:enddate: Enddatum
+        dxticket:image: Abbildung
+        dxticket:introduction: Einführung
+        dxticket:location: Standort
+        dxticket:title: Titel
+        jcr:name: Event

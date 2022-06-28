@@ -1,0 +1,133 @@
+/content/documents/dxticket/details:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: fd59b768-4396-4ddb-b373-2301cc42280f
+  hippostd:channelid: dxticket
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: a54bddcd-45c6-4f73-b129-cf266f77ef24
+  hippotranslation:locale: en
+  /detailtest:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 24f33dfa-5897-44cf-93d0-020f66efa393
+    hippo:versionHistory: f980a6be-dc79-49b2-9a66-777eb9c35c9d
+    /detailtest[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 544ed7ce-e804-4103-9858-5bf550d9d121
+      dxticket:date: 2023-01-01T16:44:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-01-02T16:44:00+01:00
+      dxticket:introduction: afjklajfkl
+      dxticket:location: Amsterdam
+      dxticket:title: TestEvent1
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-27T16:43:04.208+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-27T16:49:44.711+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ca3dffb-a8db-4e10-9df6-4d2a7b35dfd7
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>fdasfdafd</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /detailtest[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3dd5c838-e0d1-4990-9a64-c868cc983bdf
+      dxticket:date: 2023-01-01T16:44:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-01-02T16:44:00+01:00
+      dxticket:introduction: afjklajfkl
+      dxticket:location: Amsterdam
+      dxticket:title: TestEvent1
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-27T16:43:04.208+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-27T16:46:07.349+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3ca3dffb-a8db-4e10-9df6-4d2a7b35dfd7
+      hippotranslation:locale: en
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: ee17a63f-5b41-4188-a419-48907a313a08
+        hst:pageref: detailpagina
+        /0b4a2812-20c1-474d-8a39-aaccbdb31a2b:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 9db4fd87-9c39-4811-869a-01f71c44b1be
+          hippo:identifier: 2b9d1e76-b477-47f7-88ce-15cb84c3cab7
+          hst:lastmodified: 2022-06-27T16:46:07.343+02:00
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: fc958ede-75c7-42f9-b324-9e36d1a26e7b
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:template: essentials-banner
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>fdasfdafd</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /detailtest[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 20944c51-01a7-4d72-8666-3fb12284f879
+      dxticket:date: 2023-01-01T16:44:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-01-02T16:44:00+01:00
+      dxticket:introduction: afjklajfkl
+      dxticket:location: Amsterdam
+      dxticket:title: TestEvent1
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-27T16:43:04.208+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-27T16:46:07.349+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-06-28T09:27:06.654+02:00
+      hippotranslation:id: 3ca3dffb-a8db-4e10-9df6-4d2a7b35dfd7
+      hippotranslation:locale: en
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 9925fa8d-5c76-43e6-b87a-35c197faf6be
+        hst:pageref: detailpagina
+        /0b4a2812-20c1-474d-8a39-aaccbdb31a2b:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 77f7f159-f2f6-4a09-9acd-c1a55b21465f
+          hippo:identifier: 2b9d1e76-b477-47f7-88ce-15cb84c3cab7
+          hst:lastmodified: 2022-06-27T16:46:07.343+02:00
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: bcb21c8d-4ccc-4111-8897-1a416ff9e182
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:template: essentials-banner
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>fdasfdafd</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []

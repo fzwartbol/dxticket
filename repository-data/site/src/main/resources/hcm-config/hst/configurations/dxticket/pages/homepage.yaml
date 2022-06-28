@@ -9,3 +9,8 @@ definitions:
         /container:
           jcr:primaryType: hst:containercomponentreference
           hst:referencecomponent: homepage/main
+      /titlebar:
+        jcr:primaryType: hst:component
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/titlebar

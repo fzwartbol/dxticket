@@ -7,12 +7,15 @@
 [dxticket:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
-[dxticket:bannerdocument] > hippostd:relaxed, hippotranslation:translated, dxticket:basedocument
+[dxticket:bannerdocument] > dxticket:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
-[dxticket:contentdocument] > hippostd:relaxed, hippotranslation:translated, dxticket:basedocument
+[dxticket:contentdocument] > dxticket:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
-[dxticket:newsdocument] > hippostd:relaxed, hippotranslation:translated, dxticket:basedocument
+[dxticket:eventsdocument] > dxticket:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[dxticket:newsdocument] > dxticket:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
