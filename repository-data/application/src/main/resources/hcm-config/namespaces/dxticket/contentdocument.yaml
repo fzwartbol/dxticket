@@ -47,6 +47,44 @@ definitions:
             hipposysedit:path: dxticket:publicationdate
             hipposysedit:primary: false
             hipposysedit:type: Date
+        /hipposysedit:nodetype[2]:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: bf435047-c8f3-4f3f-b881-62c5409e00c0
+          hipposysedit:node: true
+          hipposysedit:supertype: ['dxticket:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dxticket:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /introduction:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dxticket:introduction
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dxticket:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /publicationdate:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: dxticket:publicationdate
+            hipposysedit:primary: false
+            hipposysedit:type: Date
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -65,6 +103,26 @@ definitions:
           dxticket:introduction: ''
           dxticket:publicationdate: 0001-01-01T13:00:00+01:00
           dxticket:title: ''
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <html><body></body></html>
+        /hipposysedit:prototype[2]:
+          jcr:primaryType: nt:unstructured
+          jcr:mixinTypes: ['hippostd:publishableSummary', 'hippostd:relaxed', 'hippostdpubwf:document',
+            'hippotranslation:translated', 'mix:referenceable']
+          jcr:uuid: d3ebf429-1c9a-47d2-8a02-37703189f625
+          dxticket:introduction: ''
+          dxticket:publicationdate: 0001-01-01T13:00:00+01:00
+          dxticket:title: ''
+          hippo:related___pathreference: []
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:creationDate: 2014-03-25T10:56:00+01:00
+          hippostdpubwf:lastModificationDate: 2014-03-25T10:56:00+01:00
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
           /dxticket:content:
             jcr:primaryType: hippostd:html
             hippostd:content: <html><body></body></html>

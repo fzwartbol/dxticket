@@ -1,4 +1,5 @@
 /content/gallery/dxticket/samples:
+  .meta:order-before: ezgif-5-1f9cf1af08.jpg
   jcr:primaryType: hippogallery:stdImageGallery
   jcr:mixinTypes: ['mix:referenceable']
   jcr:uuid: 09621bf7-687c-484c-b0f0-2802b4e6cf1e

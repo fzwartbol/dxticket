@@ -8,8 +8,8 @@
   </parent>
   <artifactId>dxticket-components</artifactId>
   <packaging>jar</packaging>
-  <name>My Project Site Components</name>
-  <description>My Project Site Components</description>
+  <name>Dxticket Site Components</name>
+  <description>Dxticket  Site Components</description>
 
   <dependencies>
     <dependency>
@@ -34,6 +34,15 @@
     </dependency>
 
     <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-services</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.onehippo.cms7</groupId>
+      <artifactId>hippo-repository-api</artifactId>
+    </dependency>
+
+    <dependency>
       <groupId>org.freemarker</groupId>
       <artifactId>freemarker</artifactId>
     </dependency>
@@ -47,6 +56,11 @@
       <groupId>com.onehippo.cms7</groupId>
       <artifactId>hippo-enterprise-package-site-dependencies</artifactId>
       <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.onehippo.forge.hippo-pojo-bind</groupId>
+      <artifactId>hippo-pojo-bind-jcr</artifactId>
     </dependency>
 
   </dependencies>

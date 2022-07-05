@@ -13,6 +13,7 @@
       jcr:primaryType: dxticket:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 5242dfc2-9590-4a4c-a080-a083cd63c028
+      dxticket:title: Sample banner
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -23,7 +24,6 @@
       hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
       hippotranslation:id: 715f6251-6c1e-4e06-95f9-e43b5e0aaf80
       hippotranslation:locale: en
-      dxticket:title: Sample banner
       /dxticket:content:
         jcr:primaryType: hippostd:html
         hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -48,6 +48,7 @@
       jcr:primaryType: dxticket:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: a603509e-23dc-4266-9bf1-490d41618575
+      dxticket:title: Sample banner 2
       hippo:availability: [live, preview]
       hippostd:holder: admin
       hippostd:state: published
@@ -58,7 +59,6 @@
       hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
       hippotranslation:id: 025b671c-86ff-4ae9-8545-077283d6fa94
       hippotranslation:locale: en
-      dxticket:title: Sample banner 2
       /dxticket:content:
         jcr:primaryType: hippostd:html
         hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -68,6 +68,93 @@
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /dxticket:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /titlebar-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7912287f-f6e6-4da8-be8e-d43d6c93978a
+    hippo:versionHistory: 9c17bbb3-886f-4709-852e-9da398915482
+    /titlebar-banner[1]:
+      jcr:primaryType: dxticket:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a5bdc53c-4ca1-4803-8f74-ef56dbd002d0
+      dxticket:title: titlebar
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-28T11:33:39.730+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-28T11:35:58.213+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b17d7c5c-a2d9-45e4-ac61-04de4454cb1a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f3efc9bc-9998-4c5c-bda7-7bd94857cc69
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /dxticket:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /titlebar-banner[2]:
+      jcr:primaryType: dxticket:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bca45af5-d622-4f7b-9adc-c99f16f4655a
+      dxticket:title: titlebar
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-28T11:33:39.730+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-28T11:35:58.145+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b17d7c5c-a2d9-45e4-ac61-04de4454cb1a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f3efc9bc-9998-4c5c-bda7-7bd94857cc69
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /dxticket:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /titlebar-banner[3]:
+      jcr:primaryType: dxticket:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 43982e08-1eea-4d86-915d-dcaf9ef030ab
+      dxticket:title: titlebar
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-06-28T11:33:39.730+02:00
+      hippostdpubwf:lastModificationDate: 2022-06-28T11:35:58.145+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-06-28T11:36:03.126+02:00
+      hippotranslation:id: b17d7c5c-a2d9-45e4-ac61-04de4454cb1a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: f3efc9bc-9998-4c5c-bda7-7bd94857cc69
         hippo:facets: []
         hippo:modes: []
         hippo:values: []

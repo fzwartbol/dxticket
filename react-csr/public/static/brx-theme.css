@@ -28,3 +28,31 @@ body {
 .titlebar{
   width: 100%;
 }
+
+.banner {
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  flex-direction: row;
+
+}
+
+.align-center {
+  align-items: center;
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.bg-dark{
+  background-color: #1a2129;
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+}

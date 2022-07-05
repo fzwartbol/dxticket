@@ -32,3 +32,9 @@ definitions:
         hst:iconpath: images/essentials/catalog-component-icons/events-list.svg
         hst:label: Event List
         hst:template: eventslist-main-eventslist
+      /list:
+        jcr:primaryType: hst:containeritemcomponent
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsListComponent
+        hst:iconpath: images/essentials/catalog-component-icons/generic-list.svg
+        hst:label: Generic List
+        hst:template: list-component
