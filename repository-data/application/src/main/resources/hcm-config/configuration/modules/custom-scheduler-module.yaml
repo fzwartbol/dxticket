@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/custom-scheduler-module:
+      jcr:primaryType: hipposys:module
+      hipposys:className: org.dxticket.scheduler.EventScheduler
+      /hippo:moduleconfig:
+        jcr:primaryType: hipposys:moduleconfig
+        exampleConfigurationOption: exampleConfigurationOptionValue
