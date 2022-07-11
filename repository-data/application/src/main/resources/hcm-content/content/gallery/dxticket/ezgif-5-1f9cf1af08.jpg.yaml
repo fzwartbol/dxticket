@@ -1,0 +1,27 @@
+/content/gallery/dxticket/ezgif-5-1f9cf1af08.jpg:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: f3efc9bc-9998-4c5c-bda7-7bd94857cc69
+  /ezgif-5-1f9cf1af08.jpg:
+    jcr:primaryType: hippogallery:imageset
+    hippo:availability: [live, preview]
+    hippogallery:filename: ezgif-5-1f9cf1af08.jpg
+    /hippogallery:thumbnail:
+      jcr:primaryType: hippogallery:image
+      hippo:filename: ezgif-5-1f9cf1af08.jpg
+      hippogallery:height: 33
+      hippogallery:width: 60
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dxticket/ezgif-5-1f9cf1af08.jpg/ezgif-5-1f9cf1af08_thumbnail.jpg
+      jcr:lastModified: 2022-06-28T11:35:44.519+02:00
+      jcr:mimeType: image/jpeg
+    /hippogallery:original:
+      jcr:primaryType: hippogallery:image
+      hippogallery:height: 776
+      hippogallery:width: 1380
+      jcr:data:
+        type: binary
+        resource: /content/gallery/dxticket/ezgif-5-1f9cf1af08.jpg/ezgif-5-1f9cf1af08_original.jpg
+      jcr:lastModified: 2022-06-28T11:35:44.519+02:00
+      jcr:mimeType: image/jpeg
