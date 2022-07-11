@@ -1,6 +1,12 @@
 package org.dxticket.configuration;
 
-public class Credentials {
-    public final static String USERNAME = "admin";
-    public final static String PASSWORD = "admin";
+
+import org.springframework.beans.factory.annotation.Value;
+
+
+public class Credentials implements javax.jcr.Credentials {
+    @Value("${credentials:username}")
+    public static String USERNAME = "admin";
+    @Value("${credentials:password}")
+    public static String PASSWORD = "admin";
 }

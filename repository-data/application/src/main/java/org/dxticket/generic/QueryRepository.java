@@ -1,5 +1,6 @@
-package org.dxticket.scheduler;
+package org.dxticket.generic;
 
+import org.dxticket.documents.documenttypes.NodeDocumentType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -8,37 +9,38 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.query.Query;
 import javax.jcr.query.QueryResult;
+import java.util.Optional;
 
 public class QueryRepository {
     private static Logger log = LoggerFactory.getLogger(QueryRepository.class);
 
     private final Session session;
+    private final NodeDocumentType documentType;
 
-    public QueryRepository(Session session) {
+    public QueryRepository(NodeDocumentType documentType,Session session ) {
         this.session = session;
+        this.documentType = documentType;
+        log.info("Query for document type {} created",NodeDocumentType.class);
     }
 
-    public Boolean hasMatchEventID(String eventId) throws RepositoryException {
-        String SQL = "SELECT * FROM [dxticket:eventsdocument] where [dxticket:EventId] = '"
-                + eventId + "'";
-       Query q = session.getWorkspace().getQueryManager().createQuery(SQL, Query.JCR_SQL2);
-       QueryResult r = q.execute();
-       return (r.getNodes().getSize()!= 0);
-    }
+    public Optional<NodeIterator> getNodesById(String eventId){
 
-    public NodeIterator getNodeResults(String eventId) {
         NodeIterator nodes = null;
         try {
-            String SQL = "SELECT * FROM [dxticket:eventsdocument] where [dxticket:EventId] = '"
+            String SQL = "SELECT * FROM ["
+                    +documentType.getDocumentType()
+                    +"] where ["
+                    +documentType.getDocumentIdentifier()
+                    +"] = '"
                     + eventId + "'";
+            log.info("Query {}",SQL);
             Query q = session.getWorkspace().getQueryManager().createQuery(SQL, Query.JCR_SQL2);
+
             QueryResult r = q.execute();
             nodes = r.getNodes();
         } catch (RepositoryException e) {
             log.error(e.getMessage());
         }
-        //TODO null check
-        return nodes;
+        return Optional.ofNullable(nodes);
     }
-
 }

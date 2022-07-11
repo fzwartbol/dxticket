@@ -17,9 +17,9 @@ public class EventScheduler implements DaemonModule {
 
     @Override
     public void initialize(Session session) throws RepositoryException {
-        log.debug("Initializing EventScheduler");
+        System.out.println("Initializing EventScheduler");
         final RepositoryScheduler scheduler = HippoServiceRegistry.getService(RepositoryScheduler.class);
-        final RepositoryJobInfo eventMatchScheduler = new RepositoryJobInfo("EventMatcherJob", EventMatcher.class);
+        final RepositoryJobInfo eventMatchScheduler = new RepositoryJobInfo("EventMatcherJob", EventPlan.class);
         final RepositoryJobTrigger timer = new RepositoryJobCronTrigger("minute","0 * * ? * *");
         scheduler.scheduleJob(eventMatchScheduler, timer);
     }

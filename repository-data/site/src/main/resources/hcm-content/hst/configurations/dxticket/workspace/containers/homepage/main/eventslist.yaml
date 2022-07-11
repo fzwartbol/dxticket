@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/dxticket/hst:workspace/hst:containers/homepage/main/eventslist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.example.components.EventComponent
+  hst:iconpath: images/essentials/catalog-component-icons/events-list.svg
+  hst:label: Event List
+  hst:parameternames: [path, hidePastEvents, documentDateField, documentTypes, sortOrder,
+    sortField, pageSize, showPagination, includeSubtypes, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: [events, 'off', '', 'dxticket:eventsdocument', desc, '', '10',
+    'off', 'off', 'webfile:/freemarker/hstdefault/eventslist-main-eventslist.ftl']
+  hst:template: eventslist-main-eventslist
