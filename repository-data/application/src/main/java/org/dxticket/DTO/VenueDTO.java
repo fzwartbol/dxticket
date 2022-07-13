@@ -7,7 +7,6 @@ import org.dxticket.model.Venue;
 @Data
 public class VenueDTO extends DTO {
     Venue venue;
-
     @Override
     public String getId() {
         return venue.getId();

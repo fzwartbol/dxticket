@@ -23,7 +23,7 @@ public class QueryRepository {
         log.info("Query for document type {} created",NodeDocumentType.class);
     }
 
-    public Optional<NodeIterator> getNodesById(String eventId){
+    public Optional<NodeIterator> getNodesById(String id){
 
         NodeIterator nodes = null;
         try {
@@ -32,7 +32,7 @@ public class QueryRepository {
                     +"] where ["
                     +documentType.getDocumentIdentifier()
                     +"] = '"
-                    + eventId + "'";
+                    + id + "'";
             log.info("Query {}",SQL);
             Query q = session.getWorkspace().getQueryManager().createQuery(SQL, Query.JCR_SQL2);
 

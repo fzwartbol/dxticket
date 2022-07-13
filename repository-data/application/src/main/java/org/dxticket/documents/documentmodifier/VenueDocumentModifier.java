@@ -13,14 +13,11 @@ public class VenueDocumentModifier extends DocumentModifier<Venue> {
     }
 
     @Override
-    public void updateDocument(Node node, Venue venue) {
-        try {
-            node.setProperty("dxticket:venueId", venue.getId());
-            node.setProperty("dxticket:venueName", venue.getName());
-            node.setProperty("dxticket:venueCapacity", venue.getCapacity());
-        } catch (RepositoryException e) {
-            log.error(e.getMessage());
-        }
+    public void setProperties(Node node, Venue venue) throws RepositoryException {
+        node.setProperty("dxticket:venueId", venue.getId());
+        node.setProperty("dxticket:venueName", venue.getName());
+        node.setProperty("dxticket:venueCapacity", venue.getCapacity());
     }
+
 
 }

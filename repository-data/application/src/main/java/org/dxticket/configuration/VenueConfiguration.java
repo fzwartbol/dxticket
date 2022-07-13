@@ -10,7 +10,7 @@ import org.dxticket.model.Event;
 import javax.jcr.Session;
 
 
-public class EventConfiguration implements MatcherConfiguration {
+public class VenueConfiguration implements MatcherConfiguration {
     public final static String API_EVENT_ENDPOINT = "http://localhost:9001/events";
     public final static String CONTENT_DOCUMENTS_EVENT_BASEPATH= "content/documents/dxticket/events/";
     public final static NodeDocumentType EVENT_DOCUMENTTYPE = new NodeDocumentType<>(new Event(),"dxticket:eventsdocument","dxticket:EventId");

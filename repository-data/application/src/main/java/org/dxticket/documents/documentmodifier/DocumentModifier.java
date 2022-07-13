@@ -5,8 +5,8 @@ import org.hippoecm.repository.api.Document;
 import org.hippoecm.repository.api.HippoWorkspace;
 import org.hippoecm.repository.api.WorkflowException;
 import org.hippoecm.repository.api.WorkflowManager;
-import org.hippoecm.repository.standardworkflow.EditableWorkflow;
 import org.hippoecm.repository.standardworkflow.FolderWorkflow;
+import org.onehippo.repository.documentworkflow.DocumentWorkflow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,27 +30,36 @@ public abstract class DocumentModifier<Model> {
         WorkflowManager workflowManager = ((HippoWorkspace) session.getWorkspace()).getWorkflowManager();
         FolderWorkflow folderWorkflow = (FolderWorkflow) workflowManager.getWorkflow("embedded", destinationFolderNode);
         String documentVariantPath = folderWorkflow.add("new-document", documentType,documentName);
-
-        // get the document handle first
-        Node documentVariantNode = session.getNode(documentVariantPath);
-        Node documentHandleNode = documentVariantNode.getParent();
-
-        // get an editable workflow from the document handle node
-        EditableWorkflow documentWorkflow = (EditableWorkflow) workflowManager.getWorkflow("default", documentHandleNode);
-
-        // obtain editable document variant (a.k.a, draft document variant)
-        Document document = documentWorkflow.obtainEditableInstance();
-       return document.getNode(session);
+        log.info("New document created @ {}",documentVariantPath);
+        return session.getNode(documentVariantPath);
     }
-    //TODO split up methods
 
-    public abstract void updateDocument(Node node, Model model);
+    public void updateDocument(Node node, Model model){
+        try {
+            WorkflowManager workflowManager = ((HippoWorkspace) session.getWorkspace()).getWorkflowManager();
+            DocumentWorkflow documentWorkflow = (DocumentWorkflow) workflowManager.getWorkflow("default", node.getParent());
+            try {
+                documentWorkflow.depublish();
+            }catch (Throwable t) {}
+            Document document = documentWorkflow.obtainEditableInstance();
+            Node editablevariant = document.getNode(session);
+            setProperties(editablevariant,model);
+            session.save();
+            documentWorkflow.commitEditableInstance();
+            documentWorkflow.publish();
+        } catch (Throwable e) {
+            log.error(e.getMessage());
+        }
+    }
+
+
+    public abstract void setProperties(Node node, Model model) throws RepositoryException;
 
     public void newDocument(Node rootnode, Model model) {
         try {
-           Node documentNode =createDocument(rootnode,nodeDocumentType.getDocumentType(),
+            Node documentNode =createDocument(rootnode,nodeDocumentType.getDocumentType(),
                     nodeDocumentType.getJavaModelClass().getClass().getSimpleName()+System.currentTimeMillis());
-           updateDocument(documentNode,model);
+            updateDocument(documentNode,model);
         } catch (Throwable e) {
             log.error(e.getMessage());
         }

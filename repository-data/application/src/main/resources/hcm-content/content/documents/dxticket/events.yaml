@@ -23,7 +23,7 @@
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
-        hippo:name: Breakfast
+        hippo:name: Hella Megatour Greenday
         hippo:versionHistory: ad90d094-c8c6-4fd1-8c57-b66d21ce1309
         /breakfast[1]:
           jcr:primaryType: dxticket:eventsdocument
@@ -390,3 +390,367 @@
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
+  /Event1657615500369:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 51578632-129d-431f-ad4f-40f74c6c1765
+    hippo:versionHistory: abeb8eba-7dbd-4e95-985c-766c01beb739
+    /Event1657615500369[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 59a3e6d1-76d8-4bb3-8d5c-76c4a28b7661
+      dxticket:EventId: 628b6d3a32ad0515f1a92d69
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands3
+      dxticket:venueId: 628b6d2df79a457c53a0de2a
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-13T11:30:00.235+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615500369[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 972f3fde-7e4c-41dd-a34c-a9bfb0694547
+      dxticket:EventId: 628b6d3a32ad0515f1a92d69
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands3
+      dxticket:venueId: 628b6d2df79a457c53a0de2a
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:00.738+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615500369[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 54ed8c8b-d984-4c10-bec4-948b79bed52e
+      dxticket:EventId: 628b6d3a32ad0515f1a92d69
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands3
+      dxticket:venueId: 628b6d2df79a457c53a0de2a
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:00.738+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-13T11:30:00.273+02:00
+      hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /Event1657615501193:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 515ec801-2d20-4bee-bcba-f1cddc419db0
+    hippo:versionHistory: 70354556-0ede-4f4b-b452-a00664389754
+    /Event1657615501193[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 230a9184-cba4-42d3-943e-b456ea289783
+      dxticket:EventId: 628b711f9256c4107c72022e
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-13T11:30:00.454+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615501193[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1047057c-e8c6-42ca-9ba5-896bc599b286
+      dxticket:EventId: 628b711f9256c4107c72022e
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.338+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615501193[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0464a961-3bba-4b6b-ae2b-fcb87e5134e1
+      dxticket:EventId: 628b711f9256c4107c72022e
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: LowLands
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.338+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-13T11:30:00.481+02:00
+      hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /Event1657615501519:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 3e2287a1-9a04-4c46-830f-1094dd54f906
+    hippo:versionHistory: a67a5d39-dedc-43d7-9739-db9f572d0413
+    /Event1657615501519[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7b47e728-9902-4c2d-9faf-db7f555b9861
+      dxticket:EventId: 62c2dfc4d043b15495079232
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: DTRH
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-13T11:30:00.688+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615501519[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 64b70020-a7a6-4ebd-a5b4-f104d9cb18ed
+      dxticket:EventId: 62c2dfc4d043b15495079232
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: DTRH
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.634+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657615501519[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2d517933-0f26-45ce-883c-e6bd7c7b20f5
+      dxticket:EventId: 62c2dfc4d043b15495079232
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: DTRH
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.634+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-13T11:30:00.725+02:00
+      hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /the-medusa-news:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a8e32fa6-552c-46ce-8056-626541578447
+    hippo:name: The medusa news
+    /the-medusa-news:
+      jcr:primaryType: dxticket:newsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 40808996-dd04-4d03-8b0e-133035f47211
+      dxticket:author: Alfred Anonymous
+      dxticket:date: 2020-11-10T13:04:00+02:00
+      dxticket:documenttype: news
+      dxticket:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum
+      dxticket:location: Rotterdam
+      dxticket:source: ''
+      dxticket:title: The medusa news
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+      hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
+      hippotranslation:id: ee5df75a-3264-4f3e-b34d-2dc48d56841a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <html>
+                    <body>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+
+                    </body>
+                    </html>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
