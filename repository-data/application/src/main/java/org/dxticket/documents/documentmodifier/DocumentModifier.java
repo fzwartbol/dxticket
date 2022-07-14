@@ -58,7 +58,8 @@ public abstract class DocumentModifier<Model> {
     public void newDocument(Node rootnode, Model model) {
         try {
             Node documentNode =createDocument(rootnode,nodeDocumentType.getDocumentType(),
-                    nodeDocumentType.getJavaModelClass().getClass().getSimpleName()+System.currentTimeMillis());
+                    nodeDocumentType.getJavaModelClass().getClass().getSimpleName().toLowerCase()
+                            +"-"+System.currentTimeMillis());
             updateDocument(documentNode,model);
         } catch (Throwable e) {
             log.error(e.getMessage());

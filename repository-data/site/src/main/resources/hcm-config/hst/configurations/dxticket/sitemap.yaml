@@ -61,3 +61,16 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/eventslist
           hst:relativecontentpath: ${parent}/${1}
+      /users:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/userslist
+        hst:pagetitle: List of Users
+        hst:relativecontentpath: events
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/userspage
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/userslist
+          hst:relativecontentpath: ${parent}/${1}

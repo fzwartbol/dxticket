@@ -24,16 +24,18 @@
         jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
         hippo:name: Hella Megatour Greenday
-        hippo:versionHistory: ad90d094-c8c6-4fd1-8c57-b66d21ce1309
+        hippo:versionHistory: 233e9a52-a836-4156-980f-9b64d57bd510
         /breakfast[1]:
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 60e88452-ada4-4aee-b5e6-e6300a942c4f
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T08:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Hella Megatour Greenday
-          dxticket:location: Room 101
+          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+            te kloppen bij het horen van deze drie namen op een rij.
+          dxticket:location: ''
           dxticket:title: Hella Megatour Greenday
           hippo:availability: [live]
           hippostd:holder: admin
@@ -41,9 +43,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T11:29:06.292+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.135+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-06-28T11:29:18.651+02:00
+          hippostdpubwf:publicationDate: 2022-07-13T13:26:30.075+02:00
           hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
           hippotranslation:locale: en
           /dxticket:content:
@@ -57,7 +59,7 @@
               en Weezer, het is Hella Mega</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -65,18 +67,20 @@
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
           jcr:uuid: d372641d-aba8-4f9f-881b-4c5e7ebd2e2e
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T08:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Hella Megatour Greenday
-          dxticket:location: Room 101
+          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+            te kloppen bij het horen van deze drie namen op een rij.
+          dxticket:location: ''
           dxticket:title: Hella Megatour Greenday
           hippo:availability: [preview]
           hippostd:retainable: false
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T11:29:06.292+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.135+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
           hippotranslation:locale: en
@@ -91,7 +95,7 @@
               en Weezer, het is Hella Mega</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -103,34 +107,31 @@
           dxticket:date: 2013-11-12T08:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Hella Megatour Greenday
-          dxticket:location: Room 101
+          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+            te kloppen bij het horen van deze drie namen op een rij.
+          dxticket:location: ''
           dxticket:title: Hella Megatour Greenday
           hippo:availability: []
-          hippostd:holder: admin
           hippostd:retainable: false
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:17:08.263+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.156+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
           hippotranslation:locale: en
           /dxticket:content:
             jcr:primaryType: hippostd:html
-            hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze
-              thuishoren, namelijk op tournee door Europa, waar ze spelen voor volle
-              stadions met een nieuwe show. Zoals je mag verwachten voor hun zestigste
-              verjaardagsfeest, trakteren Mick Jagger, Keith Richards en Ronnie Wood
-              hun fans op een unieke setlist, vol met klassiekers zoals ‘Gimme Shelter’,
-              ‘Paint It Black’, ‘Jumpin’ Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get
-              No) Satisfaction’, ‘Start Me Up’ en nog veel meer. SIXTY krijgt bovendien
-              een geheel nieuwe productie, inclusief een enorm podium, bijzondere
-              lichtshow en dito video ontwerp, allemaal speciaal vervaardigd voor
-              deze langverwachte Europese tournee!</p>
+            hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
+              te kloppen bij het horen van deze drie namen op een rij. Een triple
+              bill die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
+              kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
+              neer te zetten op de huidige rockscene, komen samen in de Hella Mega
+              Tour om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy
+              en Weezer, het is Hella Mega</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: c8f03498-56eb-46c9-83b2-cf014f2e03d7
+            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -139,16 +140,21 @@
         jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
         hippo:name: Introduction speech
-        hippo:versionHistory: 01d452ea-8a8f-439f-a01a-61aacec146a4
+        hippo:versionHistory: e3405ce7-a184-4732-83cb-e601f663f402
         /introduction-speech[1]:
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 8ad864e8-b823-43e0-9732-534f25421113
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T10:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: After breakfast there will be an introductory speech.
-          dxticket:location: Room 400
+          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
+            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
+            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
+            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
+            to the Jungle' en 'Nightrain'.
+          dxticket:location: ''
           dxticket:title: Guns N' roses
           hippo:availability: [live]
           hippostd:holder: admin
@@ -156,9 +162,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:15:34.215+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.833+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-06-28T12:15:37.810+02:00
+          hippostdpubwf:publicationDate: 2022-07-13T13:25:27.305+02:00
           hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
           hippotranslation:locale: en
           /dxticket:content:
@@ -170,7 +176,7 @@
               'Welcome to the Jungle' en 'Nightrain'.</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -178,18 +184,23 @@
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
           jcr:uuid: cd906807-2347-4ab2-8c80-957536d4760b
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T10:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: After breakfast there will be an introductory speech.
-          dxticket:location: Room 400
+          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
+            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
+            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
+            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
+            to the Jungle' en 'Nightrain'.
+          dxticket:location: ''
           dxticket:title: Guns N' roses
           hippo:availability: [preview]
           hippostd:retainable: false
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:15:34.215+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.833+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
           hippotranslation:locale: en
@@ -202,7 +213,7 @@
               'Welcome to the Jungle' en 'Nightrain'.</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -210,18 +221,23 @@
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: a32510b1-d60b-4bdf-a5a8-257902e23006
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T10:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: After breakfast there will be an introductory speech.
-          dxticket:location: Room 400
+          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
+            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
+            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
+            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
+            to the Jungle' en 'Nightrain'.
+          dxticket:location: ''
           dxticket:title: Guns N' roses
           hippo:availability: []
           hippostd:retainable: false
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:15:34.249+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.861+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
           hippotranslation:locale: en
@@ -234,7 +250,7 @@
               'Welcome to the Jungle' en 'Nightrain'.</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 9f32434e-84e3-4150-a6f2-d89a67be2fb1
+            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -242,16 +258,17 @@
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
-        hippo:versionHistory: 3d37e392-5372-44dc-8107-5c38dcacaf0e
+        hippo:versionHistory: 5bcb2c80-597e-4653-8a58-d2e07e822e96
         /workshop[1]:
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 6a39dd92-5e9f-4943-a250-dd857de2fe1a
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T13:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: ''
-          dxticket:location: Room 600
+          dxticket:introduction: The Stones "keep on rolling"
+          dxticket:location: ''
           dxticket:title: The Rolling Stones
           hippo:availability: [live]
           hippostd:holder: admin
@@ -259,9 +276,9 @@
           hippostd:state: published
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:18:01.387+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.535+02:00
           hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-06-28T12:18:04.554+02:00
+          hippostdpubwf:publicationDate: 2022-07-13T13:28:12.368+02:00
           hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
           hippotranslation:locale: en
           /dxticket:content:
@@ -278,7 +295,7 @@
               deze langverwachte Europese tournee!</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -286,18 +303,19 @@
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
           jcr:uuid: e6e5b0ec-7f0b-4ec9-86a3-c8d61fa29626
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T13:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: ''
-          dxticket:location: Room 600
+          dxticket:introduction: The Stones "keep on rolling"
+          dxticket:location: ''
           dxticket:title: The Rolling Stones
           hippo:availability: [preview]
           hippostd:retainable: false
           hippostd:state: unpublished
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:18:01.387+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.535+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
           hippotranslation:locale: en
@@ -315,7 +333,7 @@
               deze langverwachte Europese tournee!</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -323,18 +341,19 @@
           jcr:primaryType: dxticket:eventsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 643579d5-05ff-4b4c-a629-61d9bab1cd31
+          dxticket:EventId: ''
           dxticket:date: 2013-11-12T13:00:00+01:00
           dxticket:documenttype: event
           dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: ''
-          dxticket:location: Room 600
+          dxticket:introduction: The Stones "keep on rolling"
+          dxticket:location: ''
           dxticket:title: The Rolling Stones
           hippo:availability: []
           hippostd:retainable: false
           hippostd:state: draft
           hippostdpubwf:createdBy: admin
           hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T12:18:01.406+02:00
+          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.566+02:00
           hippostdpubwf:lastModifiedBy: admin
           hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
           hippotranslation:locale: en
@@ -352,7 +371,7 @@
               deze langverwachte Europese tournee!</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d035387b-f9ce-49f6-bcb0-9ab6915a2d5f
+            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -394,7 +413,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 51578632-129d-431f-ad4f-40f74c6c1765
-    hippo:versionHistory: 32fc6ada-fa81-4385-93ba-d7b00238879e
+    hippo:versionHistory: c9a67ff7-f452-4fe3-9e12-d302ac5b26dc
     /Event1657615500369[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -413,7 +432,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-13T12:16:00.190+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:00.530+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
       hippotranslation:locale: en
@@ -477,7 +496,7 @@
       hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
       hippostdpubwf:lastModificationDate: 2022-07-12T10:45:00.738+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-13T12:16:00.220+02:00
+      hippostdpubwf:publicationDate: 2022-07-14T07:49:00.585+02:00
       hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
       hippotranslation:locale: en
       /dxticket:content:
@@ -493,7 +512,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 515ec801-2d20-4bee-bcba-f1cddc419db0
-    hippo:versionHistory: 346f3e9c-cf7b-4689-af2f-907f03a6caf0
+    hippo:versionHistory: dc00a98a-f238-4737-b7fa-e91b49bcf2d1
     /Event1657615501193[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -512,7 +531,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-13T12:16:00.389+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:00.831+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
       hippotranslation:locale: en
@@ -576,7 +595,7 @@
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
       hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.338+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-13T12:16:00.415+02:00
+      hippostdpubwf:publicationDate: 2022-07-14T07:49:00.876+02:00
       hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
       hippotranslation:locale: en
       /dxticket:content:
@@ -592,7 +611,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 3e2287a1-9a04-4c46-830f-1094dd54f906
-    hippo:versionHistory: c3f58f9d-1cc4-48bf-9481-36b98ba6eb44
+    hippo:versionHistory: 27687c5e-7b5d-4ddb-8ebf-430e5c7b3d8d
     /Event1657615501519[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -611,7 +630,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-13T12:16:00.611+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:01.185+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
       hippotranslation:locale: en
@@ -675,7 +694,7 @@
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
       hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.634+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-13T12:16:00.643+02:00
+      hippostdpubwf:publicationDate: 2022-07-14T07:49:01.244+02:00
       hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
       hippotranslation:locale: en
       /dxticket:content:
@@ -751,6 +770,105 @@
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /Event1657712880733:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 04e45df9-f603-4370-bd8d-333fc657ce7d
+    hippo:versionHistory: c1fca33b-c345-422a-b139-4d84492dbc19
+    /Event1657712880733[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 99cd6c54-df94-47f7-859f-f9763c9043f5
+      dxticket:EventId: 62ceb0d286f4f533ad6029fe
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: INCENTRO FEST
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-13T13:48:00.767+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:01.502+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c5efa1f8-b64b-4eb2-b679-4fe45d41563f
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657712880733[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 57a8c111-f1e5-4a60-a69d-455a20e26310
+      dxticket:EventId: 62ceb0d286f4f533ad6029fe
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: INCENTRO FEST
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-13T13:48:00.767+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-13T13:48:00.832+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c5efa1f8-b64b-4eb2-b679-4fe45d41563f
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /Event1657712880733[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 78d9aeb1-dea2-43d5-a532-c389228aa971
+      dxticket:EventId: 62ceb0d286f4f533ad6029fe
+      dxticket:date: 0001-01-01T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 0001-01-01T13:00:00+01:00
+      dxticket:introduction: ''
+      dxticket:location: ''
+      dxticket:title: INCENTRO FEST
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-13T13:48:00.767+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-13T13:48:00.832+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-14T07:49:01.761+02:00
+      hippotranslation:id: c5efa1f8-b64b-4eb2-b679-4fe45d41563f
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
         hippo:facets: []
         hippo:modes: []
         hippo:values: []

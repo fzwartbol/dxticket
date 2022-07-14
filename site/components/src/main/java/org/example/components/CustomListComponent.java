@@ -66,6 +66,7 @@ public class CustomListComponent extends EssentialsListComponent {
 
     @Override
     public void doBeforeRender(final HstRequest request, final HstResponse response) {
+        super.doBeforeRender(request, response);
         final CustomListComponentInfo paramInfo = getComponentParametersInfo(request);
         final String documentTypes = paramInfo.getDocumentTypes();
         setDocumentType(documentTypes);
@@ -78,7 +79,7 @@ public class CustomListComponent extends EssentialsListComponent {
                 setEditMode(request);
                 return;
             }
-            super.doBeforeRender(request, response);
+
         }
         if (selectedDocumentType==API_DOCUMENT_TYPE) {
             if (documentTypes.equals("Users")) {

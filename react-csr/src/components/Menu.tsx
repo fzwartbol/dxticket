@@ -27,14 +27,14 @@ function MenuLink({ item }: MenuLinkProps) {
   const url = item.getUrl();
 
   if (!url) {
-    return <span className="nav-link text-capitalize disabled">{item.getName()}</span>;
+    return <span className="nav-link text-capitalize disabled text-white">{item.getName()}</span>;
   }
 
   if (item.getLink()?.type === TYPE_LINK_EXTERNAL) {
-    return <a className="nav-link text-capitalize" href={url}>{item.getName()}</a>;
+    return <a className="nav-link text-capitalize text-white" href={url}>{item.getName()}</a>;
   }
 
-  return <Link to={url} className="nav-link text-capitalize">{item.getName()}</Link>;
+  return <Link to={url} className="nav-link text-capitalize text-white">{item.getName()}</Link>;
 }
 
 export function Menu() {
@@ -48,10 +48,10 @@ export function Menu() {
   }
 
   return (
-    <ul className={`navbar-nav col-12 ${page!.isPreview() ? 'has-edit-button' : ''}`}>
+    <ul className={`navbar-nav col-12  ${page!.isPreview() ? 'has-edit-button' : ''}`}>
       <BrManageMenuButton menu={menu} />
       { menu.getItems().map((item, index) => (
-        <li key={index} className={`nav-item ${item.isSelected() ? 'active' : ''}`}>
+        <li key={index} className={`nav-item text-white ${item.isSelected() ? 'active' : ''}`}>
           <MenuLink item={item} />
         </li>
       )) }

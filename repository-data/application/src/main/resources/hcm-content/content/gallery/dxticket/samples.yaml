@@ -179,3 +179,86 @@
           resource: /content/gallery/dxticket/samples/pencils-199883_150.jpg/pencils-199883_150_original.jpg
         jcr:lastModified: 2013-11-12T11:16:00+01:00
         jcr:mimeType: image/jpeg
+  /nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d3329ed0-e041-40b4-91e9-12828e9ed90b
+    hippo:name: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+    /nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+        hippogallery:height: 37
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg/NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:20:06.122+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 799
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg/NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321_original.jpg
+        jcr:lastModified: 2022-07-13T13:20:06.122+02:00
+        jcr:mimeType: image/jpeg
+  /3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
+    /3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg
+        hippogallery:height: 42
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg/3aa789a8-4de2-44e5-b684-e7101d52ebca_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:24:58.073+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1060
+        hippogallery:width: 1507
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg/3aa789a8-4de2-44e5-b684-e7101d52ebca_original.jpg
+        jcr:lastModified: 2022-07-13T13:24:58.073+02:00
+        jcr:mimeType: image/jpeg
+  /rollingstones-talent-rs.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 495bd53a-7d69-4be5-accf-ce42af04bef6
+    hippo:name: RollingStones-talent-rs.jpg
+    /rollingstones-talent-rs.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: RollingStones-talent-rs.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: RollingStones-talent-rs.jpg
+        hippogallery:height: 24
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rollingstones-talent-rs.jpg/RollingStones-talent-rs_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:28:01.417+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 768
+        hippogallery:width: 1920
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rollingstones-talent-rs.jpg/RollingStones-talent-rs_original.jpg
+        jcr:lastModified: 2022-07-13T13:28:01.417+02:00
+        jcr:mimeType: image/jpeg
