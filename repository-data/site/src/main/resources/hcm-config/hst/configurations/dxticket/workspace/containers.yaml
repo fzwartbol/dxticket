@@ -24,7 +24,7 @@ definitions:
           hippo:identifier: 9e824a22-75d6-4c16-bdd4-9ded0586faed
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2022-07-13T13:46:46.999+02:00
+          hst:lastmodified: 2022-07-15T13:46:01.691+02:00
         /titlebar:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:containercomponent
@@ -40,6 +40,7 @@ definitions:
           hippo:identifier: 9b1481e2-eb3e-48ad-b014-6458cbd0bbea
           hst:label: Page-Not-Found Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2022-07-15T11:28:31.964+02:00
       /newslist:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -96,7 +97,7 @@ definitions:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:containercomponent
           hst:label: Users List Main
-          hst:lastmodified: 2022-07-13T15:09:37.428+02:00
+          hst:lastmodified: 2022-07-15T13:53:08.290+02:00
           hst:xtype: hst.vbox
           hippo:identifier: 4187cbc7-a456-4e23-a5d8-f49a8229f4b7
       /userspage:

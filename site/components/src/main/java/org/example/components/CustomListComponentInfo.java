@@ -7,7 +7,7 @@ import org.hippoecm.hst.core.parameters.Parameter;
 import org.onehippo.cms7.essentials.components.info.EssentialsListComponentInfo;
 
 @FieldGroupList({
-        @FieldGroup(value = { "documentTypes","componentTitle","hidePastEvents", "documentDateField", "path", "includeSubtypes"},
+        @FieldGroup(value = { "documentTypes","componentTitle", "path", "includeSubtypes"},
                 titleKey = "list.group")
 })
 public interface CustomListComponentInfo extends EssentialsListComponentInfo {
@@ -16,11 +16,6 @@ public interface CustomListComponentInfo extends EssentialsListComponentInfo {
      *
      * @return {@code true} if items should be hidden, {@code false} otherwise
      */
-    @Parameter(name = "hidePastEvents", defaultValue = "true")
-    Boolean getHidePastEvents();
-
-    @Parameter(name = "documentDateField")
-    String getDocumentDateField();
 
     @Parameter(name = "componentTitle")
     String getComponentTitle();

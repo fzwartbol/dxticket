@@ -1,4 +1,5 @@
 /content/documents/dxticket/details:
+  .meta:order-before: custom
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: fd59b768-4396-4ddb-b373-2301cc42280f
@@ -15,6 +16,7 @@
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
       jcr:uuid: 544ed7ce-e804-4103-9858-5bf550d9d121
+      dxticket:EventId: ''
       dxticket:date: 2023-01-01T16:44:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 2023-01-02T16:44:00+01:00
@@ -25,9 +27,10 @@
       hippo:related___pathreference: []
       hippostd:retainable: false
       hippostd:state: draft
+      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-06-27T16:43:04.208+02:00
-      hippostdpubwf:lastModificationDate: 2022-06-27T16:49:44.711+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T11:05:01.103+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 3ca3dffb-a8db-4e10-9df6-4d2a7b35dfd7
       hippotranslation:locale: en
@@ -131,3 +134,35 @@
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
+  /userdetails:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 474d8dcd-60d7-423e-b484-ffeece481ea2
+    /userdetails:
+      jcr:primaryType: dxticket:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 47501b40-4f90-4a26-a365-2b325fa25767
+      dxticket:introduction: ''
+      dxticket:publicationdate: 0001-01-01T13:00:00+01:00
+      dxticket:title: ''
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:holder: admin
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-07-15T14:01:20.199+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:01:20.199+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5a159191-7530-4ded-927e-97af21068315
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <html><body></body></html>
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 7cd46757-49f8-4c83-9f2c-f6970bfd8369
+        hst:pageref: userspage
+        /0b4a2812-20c1-474d-8a39-aaccbdb31a2b:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 46cb62af-35ac-4edd-96a5-c5f3bd570531
+          hippo:identifier: 18e2f19b-a59b-4308-bd83-942a1c67c446

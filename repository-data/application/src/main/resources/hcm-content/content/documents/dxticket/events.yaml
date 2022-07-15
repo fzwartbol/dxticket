@@ -1,4 +1,5 @@
 /content/documents/dxticket/events:
+  .meta:order-before: custom
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
   jcr:uuid: 834c3e78-abef-44b3-a8f9-a45586a7df8b
@@ -19,401 +20,11 @@
       hippostd:foldertype: [new-events-document, new-events-folder]
       hippotranslation:id: e2e57121-5353-41bc-b0e8-35fe1eb3551c
       hippotranslation:locale: en
-      /breakfast:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-        jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
-        hippo:name: Hella Megatour Greenday
-        hippo:versionHistory: 233e9a52-a836-4156-980f-9b64d57bd510
-        /breakfast[1]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 60e88452-ada4-4aee-b5e6-e6300a942c4f
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T08:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
-            te kloppen bij het horen van deze drie namen op een rij.
-          dxticket:location: ''
-          dxticket:title: Hella Megatour Greenday
-          hippo:availability: [live]
-          hippostd:holder: admin
-          hippostd:retainable: false
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.135+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-07-13T13:26:30.075+02:00
-          hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
-              te kloppen bij het horen van deze drie namen op een rij. Een triple
-              bill die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
-              kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
-              neer te zetten op de huidige rockscene, komen samen in de Hella Mega
-              Tour om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy
-              en Weezer, het is Hella Mega</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /breakfast[2]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-          jcr:uuid: d372641d-aba8-4f9f-881b-4c5e7ebd2e2e
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T08:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
-            te kloppen bij het horen van deze drie namen op een rij.
-          dxticket:location: ''
-          dxticket:title: Hella Megatour Greenday
-          hippo:availability: [preview]
-          hippostd:retainable: false
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.135+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
-              te kloppen bij het horen van deze drie namen op een rij. Een triple
-              bill die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
-              kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
-              neer te zetten op de huidige rockscene, komen samen in de Hella Mega
-              Tour om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy
-              en Weezer, het is Hella Mega</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /breakfast[3]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 69d94cc2-c24f-482f-8216-dde90de4dd48
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T08:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
-            te kloppen bij het horen van deze drie namen op een rij.
-          dxticket:location: ''
-          dxticket:title: Hella Megatour Greenday
-          hippo:availability: []
-          hippostd:retainable: false
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:26:27.156+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
-              te kloppen bij het horen van deze drie namen op een rij. Een triple
-              bill die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
-              kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
-              neer te zetten op de huidige rockscene, komen samen in de Hella Mega
-              Tour om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy
-              en Weezer, het is Hella Mega</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /introduction-speech:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-        jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
-        hippo:name: Introduction speech
-        hippo:versionHistory: e3405ce7-a184-4732-83cb-e601f663f402
-        /introduction-speech[1]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 8ad864e8-b823-43e0-9732-534f25421113
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T10:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
-            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
-            to the Jungle' en 'Nightrain'.
-          dxticket:location: ''
-          dxticket:title: Guns N' roses
-          hippo:availability: [live]
-          hippostd:holder: admin
-          hippostd:retainable: false
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.833+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-07-13T13:25:27.305+02:00
-          hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-              optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-              Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche
-              trip down memory lane en rockten mee op hits als 'Sweet Child O' Mine',
-              'Welcome to the Jungle' en 'Nightrain'.</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /introduction-speech[2]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-          jcr:uuid: cd906807-2347-4ab2-8c80-957536d4760b
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T10:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
-            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
-            to the Jungle' en 'Nightrain'.
-          dxticket:location: ''
-          dxticket:title: Guns N' roses
-          hippo:availability: [preview]
-          hippostd:retainable: false
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.833+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-              optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-              Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche
-              trip down memory lane en rockten mee op hits als 'Sweet Child O' Mine',
-              'Welcome to the Jungle' en 'Nightrain'.</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /introduction-speech[3]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: a32510b1-d60b-4bdf-a5a8-257902e23006
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T10:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-            optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-            Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche trip
-            down memory lane en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome
-            to the Jungle' en 'Nightrain'.
-          dxticket:location: ''
-          dxticket:title: Guns N' roses
-          hippo:availability: []
-          hippostd:retainable: false
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:25:22.861+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire
-              optredens in het Goffertpark in Nijmegen, maar nu is dus Paradise City
-              Groningen aan de beurt! Fans maken zich klaar voor een nostaligsche
-              trip down memory lane en rockten mee op hits als 'Sweet Child O' Mine',
-              'Welcome to the Jungle' en 'Nightrain'.</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /workshop:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
-        jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
-        hippo:versionHistory: 5bcb2c80-597e-4653-8a58-d2e07e822e96
-        /workshop[1]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 6a39dd92-5e9f-4943-a250-dd857de2fe1a
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T13:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: The Stones "keep on rolling"
-          dxticket:location: ''
-          dxticket:title: The Rolling Stones
-          hippo:availability: [live]
-          hippostd:holder: admin
-          hippostd:retainable: false
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.535+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2022-07-13T13:28:12.368+02:00
-          hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze
-              thuishoren, namelijk op tournee door Europa, waar ze spelen voor volle
-              stadions met een nieuwe show. Zoals je mag verwachten voor hun zestigste
-              verjaardagsfeest, trakteren Mick Jagger, Keith Richards en Ronnie Wood
-              hun fans op een unieke setlist, vol met klassiekers zoals ‘Gimme Shelter’,
-              ‘Paint It Black’, ‘Jumpin’ Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get
-              No) Satisfaction’, ‘Start Me Up’ en nog veel meer. SIXTY krijgt bovendien
-              een geheel nieuwe productie, inclusief een enorm podium, bijzondere
-              lichtshow en dito video ontwerp, allemaal speciaal vervaardigd voor
-              deze langverwachte Europese tournee!</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /workshop[2]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-          jcr:uuid: e6e5b0ec-7f0b-4ec9-86a3-c8d61fa29626
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T13:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: The Stones "keep on rolling"
-          dxticket:location: ''
-          dxticket:title: The Rolling Stones
-          hippo:availability: [preview]
-          hippostd:retainable: false
-          hippostd:state: unpublished
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.535+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze
-              thuishoren, namelijk op tournee door Europa, waar ze spelen voor volle
-              stadions met een nieuwe show. Zoals je mag verwachten voor hun zestigste
-              verjaardagsfeest, trakteren Mick Jagger, Keith Richards en Ronnie Wood
-              hun fans op een unieke setlist, vol met klassiekers zoals ‘Gimme Shelter’,
-              ‘Paint It Black’, ‘Jumpin’ Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get
-              No) Satisfaction’, ‘Start Me Up’ en nog veel meer. SIXTY krijgt bovendien
-              een geheel nieuwe productie, inclusief een enorm podium, bijzondere
-              lichtshow en dito video ontwerp, allemaal speciaal vervaardigd voor
-              deze langverwachte Europese tournee!</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-        /workshop[3]:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 643579d5-05ff-4b4c-a629-61d9bab1cd31
-          dxticket:EventId: ''
-          dxticket:date: 2013-11-12T13:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 2023-06-27T16:38:00+02:00
-          dxticket:introduction: The Stones "keep on rolling"
-          dxticket:location: ''
-          dxticket:title: The Rolling Stones
-          hippo:availability: []
-          hippostd:retainable: false
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
-          hippostdpubwf:lastModificationDate: 2022-07-13T13:28:09.566+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze
-              thuishoren, namelijk op tournee door Europa, waar ze spelen voor volle
-              stadions met een nieuwe show. Zoals je mag verwachten voor hun zestigste
-              verjaardagsfeest, trakteren Mick Jagger, Keith Richards en Ronnie Wood
-              hun fans op een unieke setlist, vol met klassiekers zoals ‘Gimme Shelter’,
-              ‘Paint It Black’, ‘Jumpin’ Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get
-              No) Satisfaction’, ‘Start Me Up’ en nog veel meer. SIXTY krijgt bovendien
-              een geheel nieuwe productie, inclusief een enorm podium, bijzondere
-              lichtshow en dito video ontwerp, allemaal speciaal vervaardigd voor
-              deze langverwachte Europese tournee!</p>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
-      /hallo:
-        jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['mix:referenceable']
-        jcr:uuid: 54badeb8-9ab6-48bb-a3cc-0063cc72dc0d
-        /hallo:
-          jcr:primaryType: dxticket:eventsdocument
-          jcr:mixinTypes: ['mix:referenceable']
-          jcr:uuid: 30279a16-5e94-4ef7-83ec-6c8d94ae57d7
-          dxticket:EventId: ''
-          dxticket:date: 0001-01-01T13:00:00+01:00
-          dxticket:documenttype: event
-          dxticket:enddate: 0001-01-01T13:00:00+01:00
-          dxticket:introduction: ''
-          dxticket:location: ''
-          dxticket:title: ''
-          hippo:availability: []
-          hippo:related___pathreference: []
-          hippostd:holder: admin
-          hippostd:state: draft
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2022-06-28T14:42:02.883+02:00
-          hippostdpubwf:lastModificationDate: 2022-06-28T14:42:02.883+02:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippotranslation:id: c12ff080-0483-446d-957d-8b4f8ee9872d
-          hippotranslation:locale: en
-          /dxticket:content:
-            jcr:primaryType: hippostd:html
-            hippostd:content: <html><body></body></html>
-          /dxticket:image:
-            jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-            hippo:facets: []
-            hippo:modes: []
-            hippo:values: []
   /Event1657615500369:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 51578632-129d-431f-ad4f-40f74c6c1765
-    hippo:versionHistory: c9a67ff7-f452-4fe3-9e12-d302ac5b26dc
+    hippo:versionHistory: f5644992-6000-4198-8f91-68a675174832
     /Event1657615500369[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -422,9 +33,10 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Het Belgische festival Rock Werchter heeft nog niet veel
+        namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.
       dxticket:location: ''
-      dxticket:title: LowLands3
+      dxticket:title: Rock Werchter
       dxticket:venueId: 628b6d2df79a457c53a0de2a
       hippo:availability: []
       hippo:related___pathreference: []
@@ -432,16 +44,19 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:00.530+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:00.243+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: |-
+          <p>Het Belgische festival Rock Werchter heeft nog niet veel namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.</p>
+
+          <p>Imagine Dragons is namelijk bevestigd voor zaterdag 2 juli 2022. De organisatie heeft laten weten binnenkort met meer namen te komen. Imagine Dragons werd eerder ook al voor Pinkpop 2022 bevestigd. Rock Werchter 2022 vindt plaats op 30 juni tot en met 3 juli. Meer informatie over het festival en de tickets kun je vinden op de website van Rock Werchter.</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 96be30cf-42cc-4fde-9870-267901103b1b
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -453,9 +68,10 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Het Belgische festival Rock Werchter heeft nog niet veel
+        namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.
       dxticket:location: ''
-      dxticket:title: LowLands3
+      dxticket:title: Rock Werchter
       dxticket:venueId: 628b6d2df79a457c53a0de2a
       hippo:availability: [preview]
       hippo:related___pathreference: []
@@ -463,16 +79,19 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:00.738+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:22:45.318+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: |-
+          <p>Het Belgische festival Rock Werchter heeft nog niet veel namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.</p>
+
+          <p>Imagine Dragons is namelijk bevestigd voor zaterdag 2 juli 2022. De organisatie heeft laten weten binnenkort met meer namen te komen. Imagine Dragons werd eerder ook al voor Pinkpop 2022 bevestigd. Rock Werchter 2022 vindt plaats op 30 juni tot en met 3 juli. Meer informatie over het festival en de tickets kun je vinden op de website van Rock Werchter.</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 96be30cf-42cc-4fde-9870-267901103b1b
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -484,9 +103,10 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Het Belgische festival Rock Werchter heeft nog niet veel
+        namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.
       dxticket:location: ''
-      dxticket:title: LowLands3
+      dxticket:title: Rock Werchter
       dxticket:venueId: 628b6d2df79a457c53a0de2a
       hippo:availability: [live]
       hippo:related___pathreference: []
@@ -494,17 +114,20 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:00.396+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:00.738+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:22:45.318+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-14T07:49:00.585+02:00
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:00.273+02:00
       hippotranslation:id: ebe9a5b9-3ffd-459d-8644-0e3626531791
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: |-
+          <p>Het Belgische festival Rock Werchter heeft nog niet veel namen bekendgemaakt, maar vandaag is er dan wel weer een enkele toevoeging.</p>
+
+          <p>Imagine Dragons is namelijk bevestigd voor zaterdag 2 juli 2022. De organisatie heeft laten weten binnenkort met meer namen te komen. Imagine Dragons werd eerder ook al voor Pinkpop 2022 bevestigd. Rock Werchter 2022 vindt plaats op 30 juni tot en met 3 juli. Meer informatie over het festival en de tickets kun je vinden op de website van Rock Werchter.</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 96be30cf-42cc-4fde-9870-267901103b1b
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -512,7 +135,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 515ec801-2d20-4bee-bcba-f1cddc419db0
-    hippo:versionHistory: dc00a98a-f238-4737-b7fa-e91b49bcf2d1
+    hippo:versionHistory: 2f9abaf2-60fb-4e18-b161-639e70e2bc19
     /Event1657615501193[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -521,7 +144,13 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Elk jaar in augustus strijken in Biddinghuizen duizenden
+        Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+        durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+        wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+        250+ acts en optredens, waar zowel headliners als jonge honden steevast volle
+        tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven altijd
+        nieuwsgierig!
       dxticket:location: ''
       dxticket:title: LowLands
       dxticket:venueId: 628b70fc27d67f124a13d4a9
@@ -531,16 +160,22 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:00.831+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:00.460+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: <p>Elk jaar in augustus strijken in Biddinghuizen duizenden
+          Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+          durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+          wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+          250+ acts en optredens, waar zowel headliners als jonge honden steevast
+          volle tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven
+          altijd nieuwsgierig!</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 9481eb7b-07fb-4be4-af8b-73e81fcf8a11
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -552,7 +187,13 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Elk jaar in augustus strijken in Biddinghuizen duizenden
+        Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+        durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+        wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+        250+ acts en optredens, waar zowel headliners als jonge honden steevast volle
+        tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven altijd
+        nieuwsgierig!
       dxticket:location: ''
       dxticket:title: LowLands
       dxticket:venueId: 628b70fc27d67f124a13d4a9
@@ -562,16 +203,22 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.338+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:16:43.236+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: <p>Elk jaar in augustus strijken in Biddinghuizen duizenden
+          Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+          durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+          wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+          250+ acts en optredens, waar zowel headliners als jonge honden steevast
+          volle tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven
+          altijd nieuwsgierig!</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 9481eb7b-07fb-4be4-af8b-73e81fcf8a11
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -583,7 +230,13 @@
       dxticket:date: 0001-01-01T13:00:00+01:00
       dxticket:documenttype: event
       dxticket:enddate: 0001-01-01T13:00:00+01:00
-      dxticket:introduction: ''
+      dxticket:introduction: Elk jaar in augustus strijken in Biddinghuizen duizenden
+        Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+        durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+        wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+        250+ acts en optredens, waar zowel headliners als jonge honden steevast volle
+        tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven altijd
+        nieuwsgierig!
       dxticket:location: ''
       dxticket:title: LowLands
       dxticket:venueId: 628b70fc27d67f124a13d4a9
@@ -593,17 +246,23 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.212+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.338+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:16:43.236+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-14T07:49:00.876+02:00
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:00.492+02:00
       hippotranslation:id: 3e26f31a-5869-4256-b6e2-507368124ede
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: ''
+        hippostd:content: <p>Elk jaar in augustus strijken in Biddinghuizen duizenden
+          Lowlanders neer voor A Campingflight to Lowlands Paradise, een drie dagen
+          durend festival boordevol muziek, theater, film, comedy, literatuur, straattheater,
+          wetenschap en beeldende kunst. Lowlands biedt maar liefst twaalf podia voor
+          250+ acts en optredens, waar zowel headliners als jonge honden steevast
+          volle tenten trekken. Want Lowlanders kennen hun klassiekers, maar blijven
+          altijd nieuwsgierig!</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:docbase: 9481eb7b-07fb-4be4-af8b-73e81fcf8a11
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -611,7 +270,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 3e2287a1-9a04-4c46-830f-1094dd54f906
-    hippo:versionHistory: 27687c5e-7b5d-4ddb-8ebf-430e5c7b3d8d
+    hippo:versionHistory: b5b896fc-d2ae-439b-b5ff-9251cb7c47df
     /Event1657615501519[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -630,7 +289,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:01.185+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:00.706+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
       hippotranslation:locale: en
@@ -694,7 +353,7 @@
       hippostdpubwf:creationDate: 2022-07-12T10:45:01.537+02:00
       hippostdpubwf:lastModificationDate: 2022-07-12T10:45:01.634+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-14T07:49:01.244+02:00
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:00.754+02:00
       hippotranslation:id: f91b1693-70c9-44b0-99e1-328db96aae3e
       hippotranslation:locale: en
       /dxticket:content:
@@ -706,70 +365,119 @@
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
-  /the-medusa-news:
+  /paradiso:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: a8e32fa6-552c-46ce-8056-626541578447
     hippo:name: The medusa news
-    /the-medusa-news:
+    hippo:versionHistory: 88aa2692-605c-4d15-8def-72d9d8fb6155
+    /paradiso[1]:
       jcr:primaryType: dxticket:newsdocument
       jcr:mixinTypes: ['mix:referenceable']
       jcr:uuid: 40808996-dd04-4d03-8b0e-133035f47211
       dxticket:author: Alfred Anonymous
       dxticket:date: 2020-11-10T13:04:00+02:00
       dxticket:documenttype: news
-      dxticket:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est laborum
-      dxticket:location: Rotterdam
+      dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+        \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium;\
+        \ vele bekende namen traden hier op.\r\nDe grote zaal van Paradiso heeft een\
+        \ capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog\
+        \ een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat\
+        \ vinden er ook optredens plaats in de kelder."
+      dxticket:location: Amsterdam
       dxticket:source: ''
-      dxticket:title: The medusa news
-      hippo:availability: [live, preview]
+      dxticket:title: Pardiso
+      hippo:availability: [live]
       hippostd:holder: admin
+      hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-      hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T09:35:43.452+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
+      hippostdpubwf:publicationDate: 2022-07-15T09:35:56.145+02:00
       hippotranslation:id: ee5df75a-3264-4f3e-b34d-2dc48d56841a
       hippotranslation:locale: en
       /dxticket:content:
         jcr:primaryType: hippostd:html
         hippostd:content: |-
-          <html>
-                    <body>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                    </body>
-                    </html>
+          <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.<br />
+          De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
-        hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /paradiso[2]:
+      jcr:primaryType: dxticket:newsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9ac60774-efba-4aa2-bd43-affdb377e621
+      dxticket:author: Alfred Anonymous
+      dxticket:date: 2020-11-10T13:04:00+02:00
+      dxticket:documenttype: news
+      dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+        \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium;\
+        \ vele bekende namen traden hier op.\r\nDe grote zaal van Paradiso heeft een\
+        \ capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog\
+        \ een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat\
+        \ vinden er ook optredens plaats in de kelder."
+      dxticket:location: Amsterdam
+      dxticket:source: ''
+      dxticket:title: Pardiso
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T09:35:43.452+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ee5df75a-3264-4f3e-b34d-2dc48d56841a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.<br />
+          De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /paradiso[3]:
+      jcr:primaryType: dxticket:newsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6d5946b1-e23b-4698-a50b-22ea4ded03fb
+      dxticket:author: Alfred Anonymous
+      dxticket:date: 2020-11-10T13:04:00+02:00
+      dxticket:documenttype: news
+      dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+        \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium;\
+        \ vele bekende namen traden hier op.\r\nDe grote zaal van Paradiso heeft een\
+        \ capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog\
+        \ een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat\
+        \ vinden er ook optredens plaats in de kelder."
+      dxticket:location: Amsterdam
+      dxticket:source: ''
+      dxticket:title: Pardiso
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T09:35:43.476+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: ee5df75a-3264-4f3e-b34d-2dc48d56841a
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.<br />
+          De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
         hippo:facets: []
         hippo:modes: []
         hippo:values: []
@@ -777,7 +485,7 @@
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 04e45df9-f603-4370-bd8d-333fc657ce7d
-    hippo:versionHistory: c1fca33b-c345-422a-b139-4d84492dbc19
+    hippo:versionHistory: 0f5bb543-81d7-450c-973a-b06dc4e098f7
     /Event1657712880733[1]:
       jcr:primaryType: dxticket:eventsdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -796,7 +504,7 @@
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2022-07-13T13:48:00.767+02:00
-      hippostdpubwf:lastModificationDate: 2022-07-14T07:49:01.502+02:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:00.948+02:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: c5efa1f8-b64b-4eb2-b679-4fe45d41563f
       hippotranslation:locale: en
@@ -860,7 +568,7 @@
       hippostdpubwf:creationDate: 2022-07-13T13:48:00.767+02:00
       hippostdpubwf:lastModificationDate: 2022-07-13T13:48:00.832+02:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2022-07-14T07:49:01.761+02:00
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:00.984+02:00
       hippotranslation:id: c5efa1f8-b64b-4eb2-b679-4fe45d41563f
       hippotranslation:locale: en
       /dxticket:content:
@@ -869,6 +577,368 @@
       /dxticket:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /the-rolling-stones-in-concert:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7a29ec60-2689-48b2-aca2-49696c5c23eb
+    hippo:versionHistory: c575f739-feed-45f5-aab8-8567cb963aec
+    /the-rolling-stones-in-concert[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6a39dd92-5e9f-4943-a250-dd857de2fe1a
+      dxticket:EventId: 62d147d286f4f533ad6029ff
+      dxticket:date: 2013-11-12T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: The Stones "keep on rolling"
+      dxticket:location: ''
+      dxticket:title: The Rolling Stones
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T12:57:01.009+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:01.223+02:00
+      hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze thuishoren,
+          namelijk op tournee door Europa, waar ze spelen voor volle stadions met
+          een nieuwe show. Zoals je mag verwachten voor hun zestigste verjaardagsfeest,
+          trakteren Mick Jagger, Keith Richards en Ronnie Wood hun fans op een unieke
+          setlist, vol met klassiekers zoals ‘Gimme Shelter’, ‘Paint It Black’, ‘Jumpin’
+          Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get No) Satisfaction’, ‘Start Me
+          Up’ en nog veel meer. SIXTY krijgt bovendien een geheel nieuwe productie,
+          inclusief een enorm podium, bijzondere lichtshow en dito video ontwerp,
+          allemaal speciaal vervaardigd voor deze langverwachte Europese tournee!</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /the-rolling-stones-in-concert[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e6e5b0ec-7f0b-4ec9-86a3-c8d61fa29626
+      dxticket:EventId: 62d147d286f4f533ad6029ff
+      dxticket:date: 2013-11-12T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: The Stones "keep on rolling"
+      dxticket:location: ''
+      dxticket:title: The Rolling Stones
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T12:57:01.009+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze thuishoren,
+          namelijk op tournee door Europa, waar ze spelen voor volle stadions met
+          een nieuwe show. Zoals je mag verwachten voor hun zestigste verjaardagsfeest,
+          trakteren Mick Jagger, Keith Richards en Ronnie Wood hun fans op een unieke
+          setlist, vol met klassiekers zoals ‘Gimme Shelter’, ‘Paint It Black’, ‘Jumpin’
+          Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get No) Satisfaction’, ‘Start Me
+          Up’ en nog veel meer. SIXTY krijgt bovendien een geheel nieuwe productie,
+          inclusief een enorm podium, bijzondere lichtshow en dito video ontwerp,
+          allemaal speciaal vervaardigd voor deze langverwachte Europese tournee!</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /the-rolling-stones-in-concert[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 643579d5-05ff-4b4c-a629-61d9bab1cd31
+      dxticket:EventId: 62d147d286f4f533ad6029ff
+      dxticket:date: 2013-11-12T13:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: The Stones "keep on rolling"
+      dxticket:location: ''
+      dxticket:title: The Rolling Stones
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:16:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:01.183+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 95c58c1c-1587-4f28-b39d-2991f1af656b
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The Stones "keep on rolling" en zijn terug waar ze thuishoren,
+          namelijk op tournee door Europa, waar ze spelen voor volle stadions met
+          een nieuwe show. Zoals je mag verwachten voor hun zestigste verjaardagsfeest,
+          trakteren Mick Jagger, Keith Richards en Ronnie Wood hun fans op een unieke
+          setlist, vol met klassiekers zoals ‘Gimme Shelter’, ‘Paint It Black’, ‘Jumpin’
+          Jack Flash’, ‘Tumbling Dice’, ‘(I Can’t Get No) Satisfaction’, ‘Start Me
+          Up’ en nog veel meer. SIXTY krijgt bovendien een geheel nieuwe productie,
+          inclusief een enorm podium, bijzondere lichtshow en dito video ontwerp,
+          allemaal speciaal vervaardigd voor deze langverwachte Europese tournee!</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 495bd53a-7d69-4be5-accf-ce42af04bef6
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /hella-megatour:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: b8f5eb45-7200-452a-b26e-3118a0dc60b8
+    hippo:name: Hella Megatour Greenday
+    hippo:versionHistory: e01a7b73-f30b-41f6-94a3-a204905b4cb1
+    /hella-megatour[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 60e88452-ada4-4aee-b5e6-e6300a942c4f
+      dxticket:EventId: 62d1485e86f4f533ad602a00
+      dxticket:date: 2013-11-12T08:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+        te kloppen bij het horen van deze drie namen op een rij.
+      dxticket:location: ''
+      dxticket:title: Hella Megatour Greenday
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T12:59:01.145+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:01.428+02:00
+      hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
+          te kloppen bij het horen van deze drie namen op een rij. Een triple bill
+          die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
+          kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
+          neer te zetten op de huidige rockscene, komen samen in de Hella Mega Tour
+          om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy en Weezer,
+          het is Hella Mega</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /hella-megatour[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 69d94cc2-c24f-482f-8216-dde90de4dd48
+      dxticket:EventId: 62d1485e86f4f533ad602a00
+      dxticket:date: 2013-11-12T08:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+        te kloppen bij het horen van deze drie namen op een rij.
+      dxticket:location: ''
+      dxticket:title: Hella Megatour Greenday
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:01.400+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
+          te kloppen bij het horen van deze drie namen op een rij. Een triple bill
+          die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
+          kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
+          neer te zetten op de huidige rockscene, komen samen in de Hella Mega Tour
+          om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy en Weezer,
+          het is Hella Mega</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /hella-megatour[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d372641d-aba8-4f9f-881b-4c5e7ebd2e2e
+      dxticket:EventId: 62d1485e86f4f533ad602a00
+      dxticket:date: 2013-11-12T08:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: Bang Bang! Het geluid van een hart dat sneller begint
+        te kloppen bij het horen van deze drie namen op een rij.
+      dxticket:location: ''
+      dxticket:title: Hella Megatour Greenday
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T12:59:01.145+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6399aa50-095c-41b9-bac1-d27f5dfa6024
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Bang Bang! Het geluid van een hart dat sneller begint
+          te kloppen bij het horen van deze drie namen op een rij. Een triple bill
+          die je gemakkelijk de ultieme mash-up van pop, rock, punk en alternative
+          kan noemen. Drie rockbands die al jaren hebben gestreden om hun stempel
+          neer te zetten op de huidige rockscene, komen samen in de Hella Mega Tour
+          om hun rock-krachten te bundelen. Het is Green Day, Fall Out Boy en Weezer,
+          het is Hella Mega</p>
+      /dxticket:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: d3329ed0-e041-40b4-91e9-12828e9ed90b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+  /guns-n-roses-in-concert:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 18e36c35-429d-4fee-b76e-eeabcbfc08bb
+    hippo:name: Introduction speech
+    hippo:versionHistory: bb04697f-9e5d-4add-bff2-e8c4d6de35bb
+    /guns-n-roses-in-concert[1]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 8ad864e8-b823-43e0-9732-534f25421113
+      dxticket:EventId: 62d1491f86f4f533ad602a01
+      dxticket:date: 2013-11-12T10:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+        in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+        de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+        en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+        en 'Nightrain'.
+      dxticket:location: ''
+      dxticket:title: Guns N' roses in Concert
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:03:01.541+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-07-15T14:19:01.696+02:00
+      hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+          in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+          de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+          en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+          en 'Nightrain'.</p>
+      /guns-n-roses-in-concert:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /guns-n-roses-in-concert[2]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: cd906807-2347-4ab2-8c80-957536d4760b
+      dxticket:EventId: 62d1491f86f4f533ad602a01
+      dxticket:date: 2013-11-12T10:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+        in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+        de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+        en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+        en 'Nightrain'.
+      dxticket:location: ''
+      dxticket:title: Guns N' roses in Concert
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T13:03:01.541+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+          in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+          de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+          en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+          en 'Nightrain'.</p>
+      /guns-n-roses-in-concert:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+    /guns-n-roses-in-concert[3]:
+      jcr:primaryType: dxticket:eventsdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a32510b1-d60b-4bdf-a5a8-257902e23006
+      dxticket:EventId: 62d1491f86f4f533ad602a01
+      dxticket:date: 2013-11-12T10:00:00+01:00
+      dxticket:documenttype: event
+      dxticket:enddate: 2023-06-27T16:38:00+02:00
+      dxticket:introduction: In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+        in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+        de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+        en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+        en 'Nightrain'.
+      dxticket:location: ''
+      dxticket:title: Guns N' roses in Concert
+      dxticket:venueId: 628b70fc27d67f124a13d4a9
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2013-11-12T11:02:00+01:00
+      hippostdpubwf:lastModificationDate: 2022-07-15T14:19:01.663+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: e7e0f7f9-006e-46d4-8922-b02540bb98bc
+      hippotranslation:locale: en
+      /dxticket:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>In 2017 en 2018 gaf Guns N' Roses al spectaculaire optredens
+          in het Goffertpark in Nijmegen, maar nu is dus Paradise City Groningen aan
+          de beurt! Fans maken zich klaar voor een nostaligsche trip down memory lane
+          en rockten mee op hits als 'Sweet Child O' Mine', 'Welcome to the Jungle'
+          en 'Nightrain'.</p>
+      /guns-n-roses-in-concert:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
         hippo:facets: []
         hippo:modes: []
         hippo:values: []

@@ -4,16 +4,12 @@ import com.google.common.base.Strings;
 import org.example.beans.EventsDocument;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.builder.HstQueryBuilder;
-import org.hippoecm.hst.content.beans.query.exceptions.FilterException;
-import org.hippoecm.hst.content.beans.query.filter.BaseFilter;
-import org.hippoecm.hst.content.beans.query.filter.Filter;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.hippoecm.hst.core.component.HstComponentException;
 import org.hippoecm.hst.core.component.HstRequest;
 import org.hippoecm.hst.core.component.HstResponse;
 import org.hippoecm.hst.core.parameters.ParametersInfo;
 import org.hippoecm.hst.core.request.ComponentConfiguration;
-import org.hippoecm.repository.util.DateTools;
 import org.onehippo.cms7.essentials.components.EssentialsListComponent;
 import org.onehippo.cms7.essentials.components.info.EssentialsListComponentInfo;
 import org.onehippo.cms7.essentials.components.paging.IterablePagination;
@@ -25,7 +21,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.ServletContext;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import static org.example.components.CustomListComponent.documentType.API_DOCUMENT_TYPE;
 import static org.example.components.CustomListComponent.documentType.BLOOMREACH_DOCUMENT_TYPE;
@@ -43,12 +42,6 @@ public class CustomListComponent extends EssentialsListComponent {
         put("Events", EventsDocument.DOCUMENT_TYPE);
         put("Users", USERS_API_BASEPATH);
         put("Tickets", TICKETS_API_BASEPATH);
-    }};
-
-    //TODO -> add to resourcebundle
-    public final static Map<String, String> documentName = new HashMap<String, String>() {{
-        put("Venues","Locaties");
-        put("Events", "Evenementen");
     }};
 
     @Override
@@ -79,7 +72,6 @@ public class CustomListComponent extends EssentialsListComponent {
                 setEditMode(request);
                 return;
             }
-
         }
         if (selectedDocumentType==API_DOCUMENT_TYPE) {
             if (documentTypes.equals("Users")) {
@@ -87,7 +79,9 @@ public class CustomListComponent extends EssentialsListComponent {
             } else {
                 request.setModel("documentType","API_TICKET_DOCUMENT_TYPE");
             }
-            request.setModel("pageable", pageable( Arrays.asList(consumerApi(documentTypes)),paramInfo));
+            Pageable pageable = getPageableList(Arrays.asList(consumerApi(documentTypes)), paramInfo,request);
+            pageable.setShowPagination(isShowPagination(request, paramInfo));
+            request.setModel("pageable", pageable);
         }
     }
 
@@ -95,9 +89,8 @@ public class CustomListComponent extends EssentialsListComponent {
         return restTemplate.getForObject(documentTypesMap.get(documentTypes),Object[].class);
     }
 
-    public Pageable pageable (List paging, CustomListComponentInfo paramInfo) {
-
-        IterablePagination<?> pagination = new IterablePagination(paging,1,paramInfo.getPageSize());
+    public Pageable getPageableList(List paging, CustomListComponentInfo paramInfo, HstRequest request) {
+        IterablePagination<?> pagination = new IterablePagination(paging,getCurrentPage(request),paramInfo.getPageSize());
         pagination.processAll();
         return pagination;
     }
@@ -113,24 +106,6 @@ public class CustomListComponent extends EssentialsListComponent {
         HstQueryBuilder builder = HstQueryBuilder.create(scope);
         return paramInfo.getIncludeSubtypes() ? builder.ofTypes(types).build() : builder.ofPrimaryTypes(types).build();
     }
-
-    @Override
-    protected void contributeAndFilters(final List<BaseFilter> filters, final HstRequest request, final HstQuery query) {
-        final CustomListComponentInfo paramInfo = getComponentParametersInfo(request);
-        if (paramInfo.getHidePastEvents()) {
-            final String dateField = paramInfo.getDocumentDateField();
-            if (!Strings.isNullOrEmpty(dateField)) {
-                try {
-                    final Filter filter = query.createFilter();
-                    filter.addGreaterOrEqualThan(dateField, Calendar.getInstance(), DateTools.Resolution.DAY);
-                    filters.add(filter);
-                } catch (FilterException e) {
-                    log.error("Error while creating query filter to hide past events using date field {}", dateField, e);
-                }
-            }
-        }
-    }
-
 
     public enum documentType{
         API_DOCUMENT_TYPE,
