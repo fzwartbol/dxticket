@@ -14,13 +14,14 @@ package org.example.beans;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import java.util.Calendar;
 
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
+
+import java.util.Calendar;
 
 @HippoEssentialsGenerated(internalName = "dxticket:eventsdocument")
 @Node(jcrType="dxticket:eventsdocument")
@@ -38,6 +39,8 @@ public class EventsDocument extends HippoDocument {
     private static final String CONTENT = "dxticket:content";
     private static final String LOCATION = "dxticket:location";
     private static final String END_DATE = "dxticket:enddate";
+
+    //TODO -> welke informatie willen we tonen
 
     /**
      * Get the title of the document.

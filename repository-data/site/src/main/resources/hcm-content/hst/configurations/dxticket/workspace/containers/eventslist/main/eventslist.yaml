@@ -1,9 +1,0 @@
-/hst:hst/hst:configurations/dxticket/hst:workspace/hst:containers/eventslist/main/eventslist:
-  jcr:primaryType: hst:containeritemcomponent
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsEventsComponent
-  hst:label: Events List
-  hst:parameternames: [path, hidePastEvents, documentDateField, documentTypes, sortOrder,
-    sortField, pageSize, showPagination, includeSubtypes, org.hippoecm.hst.core.component.template]
-  hst:parametervalues: [events, 'off', 'dxticket:enddate', 'dxticket:eventsdocument',
-    desc, '', '10', 'on', 'on', 'webfile:/freemarker/hstdefault/eventslist-main-eventslist/variant.ftl']
-  hst:template: eventslist-main-eventslist

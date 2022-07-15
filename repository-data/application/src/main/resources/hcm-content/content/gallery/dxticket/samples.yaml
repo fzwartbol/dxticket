@@ -179,3 +179,169 @@
           resource: /content/gallery/dxticket/samples/pencils-199883_150.jpg/pencils-199883_150_original.jpg
         jcr:lastModified: 2013-11-12T11:16:00+01:00
         jcr:mimeType: image/jpeg
+  /nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: d3329ed0-e041-40b4-91e9-12828e9ed90b
+    hippo:name: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+    /nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321.jpg
+        hippogallery:height: 37
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg/NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:20:06.122+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 799
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/nielsknelis-hella-mega-dvhn-052-dsc_9321.jpg/NielsKnelis-HELLA-MEGA-dvhn-052-DSC_9321_original.jpg
+        jcr:lastModified: 2022-07-13T13:20:06.122+02:00
+        jcr:mimeType: image/jpeg
+  /3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 447f53b6-91a1-4261-8ea8-63e0d6b1c103
+    /3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg
+        hippogallery:height: 42
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg/3aa789a8-4de2-44e5-b684-e7101d52ebca_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:24:58.073+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1060
+        hippogallery:width: 1507
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/3aa789a8-4de2-44e5-b684-e7101d52ebca.jpg/3aa789a8-4de2-44e5-b684-e7101d52ebca_original.jpg
+        jcr:lastModified: 2022-07-13T13:24:58.073+02:00
+        jcr:mimeType: image/jpeg
+  /rollingstones-talent-rs.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 495bd53a-7d69-4be5-accf-ce42af04bef6
+    hippo:name: RollingStones-talent-rs.jpg
+    /rollingstones-talent-rs.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: RollingStones-talent-rs.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: RollingStones-talent-rs.jpg
+        hippogallery:height: 24
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rollingstones-talent-rs.jpg/RollingStones-talent-rs_thumbnail.jpg
+        jcr:lastModified: 2022-07-13T13:28:01.417+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 768
+        hippogallery:width: 1920
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rollingstones-talent-rs.jpg/RollingStones-talent-rs_original.jpg
+        jcr:lastModified: 2022-07-13T13:28:01.417+02:00
+        jcr:mimeType: image/jpeg
+  /amsterdam-club20paradiso-slider-3-desktop-pretty.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
+    /amsterdam-club20paradiso-slider-3-desktop-pretty.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: amsterdam-club20paradiso-slider-3-desktop-pretty.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: amsterdam-club20paradiso-slider-3-desktop-pretty.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/amsterdam-club20paradiso-slider-3-desktop-pretty.jpg/amsterdam-club20paradiso-slider-3-desktop-pretty_thumbnail.jpg
+        jcr:lastModified: 2022-07-15T09:30:08.823+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 660
+        hippogallery:width: 660
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/amsterdam-club20paradiso-slider-3-desktop-pretty.jpg/amsterdam-club20paradiso-slider-3-desktop-pretty_original.jpg
+        jcr:lastModified: 2022-07-15T09:30:08.823+02:00
+        jcr:mimeType: image/jpeg
+  /49a2454-1024x683-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9481eb7b-07fb-4be4-af8b-73e81fcf8a11
+    hippo:name: 49A2454-1024x683 (1).jpg
+    /49a2454-1024x683-1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 49A2454-1024x683 (1).jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 49A2454-1024x683 (1).jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/49a2454-1024x683-1.jpg/49A2454-1024x683-(1)_thumbnail.jpg
+        jcr:lastModified: 2022-07-15T13:10:21.368+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 683
+        hippogallery:width: 1024
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/49a2454-1024x683-1.jpg/49A2454-1024x683-(1)_original.jpg
+        jcr:lastModified: 2022-07-15T13:10:21.368+02:00
+        jcr:mimeType: image/jpeg
+  /rock-werchter-rw1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 96be30cf-42cc-4fde-9870-267901103b1b
+    hippo:name: Rock-Werchter-RW1.jpg
+    /rock-werchter-rw1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: Rock-Werchter-RW1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: Rock-Werchter-RW1.jpg
+        hippogallery:height: 23
+        hippogallery:width: 59
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rock-werchter-rw1.jpg/Rock-Werchter-RW1_thumbnail.jpg
+        jcr:lastModified: 2022-07-15T13:22:40.471+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 370
+        hippogallery:width: 940
+        jcr:data:
+          type: binary
+          resource: /content/gallery/dxticket/samples/rock-werchter-rw1.jpg/Rock-Werchter-RW1_original.jpg
+        jcr:lastModified: 2022-07-15T13:22:40.471+02:00
+        jcr:mimeType: image/jpeg

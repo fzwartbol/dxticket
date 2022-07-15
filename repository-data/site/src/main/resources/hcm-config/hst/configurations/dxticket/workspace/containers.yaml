@@ -24,7 +24,7 @@ definitions:
           hippo:identifier: 9e824a22-75d6-4c16-bdd4-9ded0586faed
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2022-06-29T13:37:17.546+02:00
+          hst:lastmodified: 2022-07-15T13:46:01.691+02:00
         /titlebar:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:containercomponent
@@ -40,6 +40,7 @@ definitions:
           hippo:identifier: 9b1481e2-eb3e-48ad-b014-6458cbd0bbea
           hst:label: Page-Not-Found Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2022-07-15T11:28:31.964+02:00
       /newslist:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -64,6 +65,7 @@ definitions:
           hippo:identifier: 77e348e1-0879-4b2f-b1d2-4bae76115010
           hst:label: Content List Main
           hst:xtype: hst.vbox
+          hst:lastmodified: 2022-07-13T14:53:51.342+02:00
       /contentpage:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -80,7 +82,7 @@ definitions:
           hippo:identifier: 3110b7b6-ddec-46bf-ae0f-54e6842b9fae
           hst:label: Event List Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2022-06-28T11:26:55.835+02:00
+          hst:lastmodified: 2022-07-13T14:29:45.977+02:00
       /eventspage:
         jcr:primaryType: hst:containercomponentfolder
         /main:
@@ -88,4 +90,20 @@ definitions:
           jcr:primaryType: hst:containercomponent
           hippo:identifier: 18a38c33-fb0c-40c2-bbdb-24ecb50b4437
           hst:label: Event Page Main
+          hst:xtype: hst.vbox
+      /userslist:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Users List Main
+          hst:lastmodified: 2022-07-15T13:53:08.290+02:00
+          hst:xtype: hst.vbox
+          hippo:identifier: 4187cbc7-a456-4e23-a5d8-f49a8229f4b7
+      /userspage:
+        jcr:primaryType: hst:containercomponentfolder
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:containercomponent
+          hst:label: Users Page Main
           hst:xtype: hst.vbox

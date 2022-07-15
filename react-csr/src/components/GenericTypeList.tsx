@@ -19,37 +19,92 @@ import { Link } from 'react-router-dom';
 import { Document } from '@bloomreach/spa-sdk';
 import { BrManageContentButton, BrPageContext, BrProps } from '@bloomreach/react-sdk';
 
-export function EventList(props: BrProps) {
 
-  console.log(props)
-
+export function GenericTypeList(props: BrProps) {
+  const {componentHeaderName, documentType} = props.component.getModels();
   const { pageable } = props.component.getModels<PageableModels>();
 
-  if (!pageable) {
-    return null;
+    if (!pageable) {
+      return null;
   }
 
-  return (
+    if(documentType && documentType ==="API_USER_DOCUMENT_TYPE" && pageable) {
+        return(
+            <div className={"align-center"}>
+                { componentHeaderName &&<h2>{componentHeaderName}</h2>}
+                {
+                    // @ts-ignore
+                    pageable.items.map( item => <UserListItem key={item.id} item={item}  />) }
+                <GenericTypeListPagination {...pageable} />
+            </div>
+        );
+    }
+
+    if(documentType && documentType ==="API_TICKET_DOCUMENT_TYPE" && pageable) {
+        return(
+            <div className={"align-center"}>
+                { componentHeaderName &&<h2>{componentHeaderName}</h2>}
+                {
+                    // @ts-ignore
+                    pageable.items.map( item => <TicketListItem key={item.ticketId} item={item}  />) }
+                <GenericTypeListPagination {...pageable} />
+            </div>
+        );
+    }
+
+
+    return (
     <div className={"align-center"}>
-      <h2>Evenementen</h2>
-      { pageable.items.map((reference, key) => <EventListItem key={key} item={props.page.getContent<Document>(reference)!} />) }
-      <EventListPagination {...pageable} />
+      <h2>{componentHeaderName}</h2>
+      { pageable.items.map((reference, key) => <GenericTypeListItem key={key} item={props.page.getContent<Document>(reference)!} />) }
+      <GenericTypeListPagination {...pageable} />
     </div>
   );
 }
 
-interface EventListItemProps {
+interface UserTypeListItemProps {
+    id: String;
+    name: String;
+}
+
+// @ts-ignore
+export function UserListItem({item} :UserTypeListItemProps) {
+    const {id, name} = item;
+    return (
+        <div className="card mb-3 align-left">
+            {/*<BrManageContentButton content={props} />*/}
+            <h2>User</h2>
+            { name && <div className="card-subtitle mb-3 text-muted">{name}</div> }
+            { id && (<div className="card-title">{id}</div> )}
+        </div>
+    );
+}
+
+interface GenericTypeListItemProps {
   item: Document;
 }
 
-export function EventListItem({ item }: EventListItemProps) {
+interface TicketTypeListItemProps {
+    ticketId: String;
+}
 
+// @ts-ignore
+export function TicketListItem({ item} : TicketTypeListItemProps) {
+    const {ticketId} = item;
+    return (
+        <div className="card mb-3 align-left">
+            {/*<BrManageContentButton content={props} />*/}
+            <h2>Ticket</h2>
+            {/*{ name && <div className="card-subtitle mb-3 text-muted">{name}</div> }*/}
+            { ticketId && (<div className="card-title">{ticketId}</div> )}
+        </div>
+    );
+}
 
+export function GenericTypeListItem({ item }: GenericTypeListItemProps) {
   const { author, date, introduction, title } = item.getData<DocumentData>();
 
-
   return (
-
     <div className="card mb-3 align-left">
       <BrManageContentButton content={item} />
       <div className="card-body">
@@ -66,7 +121,7 @@ export function EventListItem({ item }: EventListItemProps) {
   );
 }
 
-export function EventListPagination(props: Pageable) {
+export function GenericTypeListPagination(props: Pageable) {
   const page = React.useContext(BrPageContext);
 
   if (!page || !props.showPagination) {

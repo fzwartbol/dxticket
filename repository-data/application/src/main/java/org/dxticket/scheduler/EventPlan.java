@@ -16,7 +16,7 @@ public class EventPlan implements RepositoryJob {
     public void execute(RepositoryJobExecutionContext repositoryJobExecutionContext) {
         System.out.println("Executing matcher event config");
         EventConfiguration eventConfig = new EventConfiguration();
-        importerJob eventConfigImporterJob = new importerJob(eventConfig);
+        ImporterJob eventConfigImporterJob = new ImporterJob(eventConfig);
         eventConfigImporterJob.execute(repositoryJobExecutionContext);
     }
 

@@ -11,8 +11,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ApiConsumer {
-    public final static String API_EVENT_ENDPOINT = "http://localhost:9001/events";
-    public final static String API_VENUE_ENDPOINT = "http://localhost:9002/venue";
 
     private static Logger log = LoggerFactory.getLogger(ApiConsumer.class);
     private final RestTemplate restTemplate;
@@ -27,13 +25,7 @@ public class ApiConsumer {
 
     public List<DTO> getList () {
         log.info("Fetching list of type {}", dtoType.getClass());
-        Object[] objects = null;
-        try {
-           objects = restTemplate.getForObject(apiEndpoint, Object[].class);
-        } catch (Throwable t) {
-            log.info(t.getMessage());
-        }
-        log.info(String.valueOf(objects));
+        Object[] objects = restTemplate.getForObject(apiEndpoint, Object[].class);
         ObjectMapper mapper = new ObjectMapper();
         return Arrays.stream(objects)
                 .map(object -> mapper.convertValue(object, dtoType.getClass()))

@@ -22,68 +22,120 @@
       hippotranslation:locale: en
       /the-medusa-news:
         jcr:primaryType: hippo:handle
-        jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
         jcr:uuid: c580ac64-3874-4717-a6d9-e5ad72080abe
         hippo:name: The medusa news
-        /the-medusa-news:
+        hippo:versionHistory: f70a4ea0-2731-4ba4-a0ae-f13b3ec031dc
+        /the-medusa-news[1]:
           jcr:primaryType: dxticket:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 4e0f3f0d-d76f-486d-9ef8-31408fb6ea97
-          hippo:availability: [live, preview]
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T13:04:00+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T13:04:00+01:00
-          hippotranslation:id: 3044d813-fbb5-459a-9e24-9c5ee19ec34d
-          hippotranslation:locale: en
           dxticket:author: Alfred Anonymous
           dxticket:date: 2020-11-10T13:04:00+02:00
           dxticket:documenttype: news
-          dxticket:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum
+          dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+            \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als\
+            \ poppodium; vele bekende namen traden hier op.\r\n\r\nDe grote zaal van\
+            \ Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping\
+            \ bevindt zich nog een kleine zaal met een capaciteit van 250 personen.\
+            \ Met enige regelmaat vinden er ook optredens plaats in de kelder."
           dxticket:location: Rotterdam
           dxticket:source: ''
-          dxticket:title: The medusa news
+          dxticket:title: Paradiso
+          hippo:availability: [live]
+          hippostd:holder: admin
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2022-07-15T09:30:17.213+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2022-07-15T09:30:24.441+02:00
+          hippotranslation:id: 3044d813-fbb5-459a-9e24-9c5ee19ec34d
+          hippotranslation:locale: en
           /dxticket:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <html>
-                        <body>
+              <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.</p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-
-                        </body>
-                        </html>
+              <p>De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
           /dxticket:image:
             jcr:primaryType: hippogallerypicker:imagelink
-            hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+            hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /the-medusa-news[2]:
+          jcr:primaryType: dxticket:newsdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: eccb5a2c-db14-4764-ba82-73be138ca904
+          dxticket:author: Alfred Anonymous
+          dxticket:date: 2020-11-10T13:04:00+02:00
+          dxticket:documenttype: news
+          dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+            \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als\
+            \ poppodium; vele bekende namen traden hier op.\r\n\r\nDe grote zaal van\
+            \ Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping\
+            \ bevindt zich nog een kleine zaal met een capaciteit van 250 personen.\
+            \ Met enige regelmaat vinden er ook optredens plaats in de kelder."
+          dxticket:location: Rotterdam
+          dxticket:source: ''
+          dxticket:title: Paradiso
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2022-07-15T09:30:17.213+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3044d813-fbb5-459a-9e24-9c5ee19ec34d
+          hippotranslation:locale: en
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.</p>
+
+              <p>De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
+          /dxticket:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /the-medusa-news[3]:
+          jcr:primaryType: dxticket:newsdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: dc8a1c8f-7f84-482e-a323-7ab857a5246a
+          dxticket:author: Alfred Anonymous
+          dxticket:date: 2020-11-10T13:04:00+02:00
+          dxticket:documenttype: news
+          dxticket:introduction: "Paradiso is een uitgaansgelegenheid aan de Weteringschans,\
+            \ vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als\
+            \ poppodium; vele bekende namen traden hier op.\r\n\r\nDe grote zaal van\
+            \ Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping\
+            \ bevindt zich nog een kleine zaal met een capaciteit van 250 personen.\
+            \ Met enige regelmaat vinden er ook optredens plaats in de kelder."
+          dxticket:location: Rotterdam
+          dxticket:source: ''
+          dxticket:title: Paradiso
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T13:03:00+01:00
+          hippostdpubwf:lastModificationDate: 2022-07-15T09:30:17.235+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 3044d813-fbb5-459a-9e24-9c5ee19ec34d
+          hippotranslation:locale: en
+          /dxticket:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: |-
+              <p>Paradiso is een uitgaansgelegenheid aan de Weteringschans, vlak bij het Leidseplein, in Amsterdam. Paradiso is vooral bekend als poppodium; vele bekende namen traden hier op.</p>
+
+              <p>De grote zaal van Paradiso heeft een capaciteit van 1.500 bezoekers. Op de eerste verdieping bevindt zich nog een kleine zaal met een capaciteit van 250 personen. Met enige regelmaat vinden er ook optredens plaats in de kelder.</p>
+          /dxticket:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 4c13e991-2ce0-41b0-84b9-cc5b9e49b343
             hippo:facets: []
             hippo:modes: []
             hippo:values: []
@@ -96,16 +148,6 @@
           jcr:primaryType: dxticket:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: 3eaecd7a-25a2-4aed-ac85-c941ba13819c
-          hippo:availability: [live, preview]
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T14:31:00+01:00
-          hippotranslation:id: 8ab37d81-d6ea-4a90-932d-9e0c501a84a4
-          hippotranslation:locale: en
           dxticket:author: Alfred Anonymous
           dxticket:date: 2020-11-10T13:04:00+02:00
           dxticket:documenttype: news
@@ -119,6 +161,16 @@
           dxticket:location: Rome
           dxticket:source: ''
           dxticket:title: 2013 harvest
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T14:31:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T14:31:00+01:00
+          hippotranslation:id: 8ab37d81-d6ea-4a90-932d-9e0c501a84a4
+          hippotranslation:locale: en
           /dxticket:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
@@ -163,16 +215,6 @@
           jcr:primaryType: dxticket:newsdocument
           jcr:mixinTypes: ['mix:referenceable']
           jcr:uuid: be86a7b2-456b-40ec-bf4d-158430143146
-          hippo:availability: [live, preview]
-          hippostd:holder: admin
-          hippostd:state: published
-          hippostdpubwf:createdBy: admin
-          hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
-          hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
-          hippostdpubwf:lastModifiedBy: admin
-          hippostdpubwf:publicationDate: 2013-11-12T12:52:00+01:00
-          hippotranslation:id: d7dcd4ca-c2f1-41c3-a535-e73ea99ba42f
-          hippotranslation:locale: en
           dxticket:author: Alfred Anonymous
           dxticket:date: 2020-11-10T13:04:00+02:00
           dxticket:documenttype: news
@@ -186,6 +228,16 @@
           dxticket:location: Liverpool
           dxticket:source: ''
           dxticket:title: The gastropoda news
+          hippo:availability: [live, preview]
+          hippostd:holder: admin
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2013-11-12T12:50:00+01:00
+          hippostdpubwf:lastModificationDate: 2013-11-12T12:52:00+01:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2013-11-12T12:52:00+01:00
+          hippotranslation:id: d7dcd4ca-c2f1-41c3-a535-e73ea99ba42f
+          hippotranslation:locale: en
           /dxticket:content:
             jcr:primaryType: hippostd:html
             hippostd:content: |-

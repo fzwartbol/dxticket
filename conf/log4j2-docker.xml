@@ -17,6 +17,7 @@
     <Logger name="org.hippoecm" level="error"/>
     <Logger name="com.onehippo" level="error"/>
     <Logger name="org.onehippo" level="error"/>
+    <Logger name="org.dxticket" level="all"/>
 
     <!-- audit logging -->
     <Logger additivity="false" name="org.hippoecm.repository.api.Workflow" level="info"/>
@@ -62,6 +63,7 @@
 
     <!-- project logging -->
     <Logger name="org.example" level="info"/>
+    <Logger name="org.dxticket" level="all"/>
 
     <Root level="warn">
       <AppenderRef ref="console"/>

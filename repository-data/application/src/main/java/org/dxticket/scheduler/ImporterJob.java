@@ -16,12 +16,12 @@ import org.slf4j.LoggerFactory;
 import javax.jcr.*;
 import java.util.NoSuchElementException;
 
-public class importerJob implements RepositoryJob {
-    private static final Logger log = LoggerFactory.getLogger(importerJob.class);
+public class ImporterJob implements RepositoryJob {
+    private static final Logger log = LoggerFactory.getLogger(ImporterJob.class);
     private MatcherConfiguration configProperties;
     private ApiConsumer apiConsumer;
 
-    public importerJob(MatcherConfiguration configProperties){
+    public ImporterJob(MatcherConfiguration configProperties){
         this.configProperties = configProperties;
         this.apiConsumer = new ApiConsumer(configProperties.getApiEndpoint(), configProperties.getAPIModelDTO());
     }

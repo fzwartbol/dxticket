@@ -4,3 +4,9 @@ definitions:
       jcr:primaryType: hst:catalog
       /dxticket-catalog:
         jcr:primaryType: hst:containeritempackage
+        /CustomList:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: org.example.components.CustomListComponent
+          hst:iconpath: images/essentials/catalog-component-icons/events-list.svg
+          hst:label: Custom List
+          hst:referencename: Custom List

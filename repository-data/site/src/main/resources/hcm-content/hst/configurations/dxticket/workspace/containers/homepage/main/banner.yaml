@@ -1,6 +1,0 @@
-/hst:hst/hst:configurations/dxticket/hst:workspace/hst:containers/homepage/main/banner:
-  jcr:primaryType: hst:containeritemcomponent
-  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
-  hst:iconpath: images/essentials/catalog-component-icons/banner.svg
-  hst:label: Banner
-  hst:template: essentials-banner

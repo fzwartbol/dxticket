@@ -52,6 +52,4 @@ public class EventComponent extends EssentialsListComponent {
             }
         }
     }
-
-
 }
