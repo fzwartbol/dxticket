@@ -24,7 +24,7 @@ definitions:
           hippo:identifier: 9e824a22-75d6-4c16-bdd4-9ded0586faed
           hst:label: Home Page Main
           hst:xtype: hst.vbox
-          hst:lastmodified: 2022-07-15T13:46:01.691+02:00
+          hst:lastmodified: 2022-07-15T14:55:05.233+02:00
         /titlebar:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:containercomponent
